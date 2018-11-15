@@ -26,8 +26,16 @@ limitations under the License.
   </head>
   <body>
     {% include body-navbar.html %}
-    
-    {{ content }}
+
+    <main id="content" role="main" class="">
+      
+        {{ content }}
+        
+        {% include body-social-section.html %}
+      
+    </main>
+
     {% include body-footer.html %}
+
   </body>
 </html>
