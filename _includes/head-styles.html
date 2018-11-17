@@ -4,6 +4,34 @@
 .page-title { position:absolute; left: 50px; font-weight: bold; }
 .page-title a { text-decoration: unset; }
 .section-title { text-align: center; }
+section {
+  margin-top: 20px;
+}
+
+#content {
+  margin-top: 3.5rem;
+}
+
+#past-speakers-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#past-speakers-container .card {
+  width: 200px;
+  text-align: center;
+}
+
+#past-speakers-container .card amp-img{
+  border-radius: 50%;
+}
+
+#past-speakers-container .card .speaker-name {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.15em
+}
 
 .flexb {
   display: flex;
@@ -21,6 +49,7 @@
 .event-item {
   display: block;
   min-height: 110px;
+  width: 80%;
 }
 
 .card {
@@ -29,7 +58,6 @@
   border-radius: 5px; /* 5px rounded corners */
   margin: 10px auto 5px auto;
   padding: 5px;
-  width: 80%;
 }
 
 .placeholder-card {
@@ -45,7 +73,7 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.card amp-img {
+.event-item amp-img {
     border-radius: 5px 5px 0 0;
     float: left;
     margin-right: 16px;
