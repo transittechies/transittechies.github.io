@@ -10,5 +10,5 @@ permalink: /talks
 </header>
 
 <section id="past-talks">
-  {% capture my-include %}{% include_relative talks-content.md %}{% endcapture %} {{ my-include | markdownify }}
+  {% capture my-include %}{% include_relative archive.md %}{% endcapture %} {{ my-include | markdownify }}
 </section>

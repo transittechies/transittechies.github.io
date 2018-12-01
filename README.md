@@ -4,4 +4,6 @@ Work-in-progress homepage for the Transit Techies meetup group and all things re
 
 Based on the simple blog AMP template.
 
-To add talks and content, please edit the `talks-content.md` file and submit a pull request! If you want to add a presentation, add it to the `presentations` folder.
+## Contributing
+
+To add talks and content, please edit the `archive.md` file and submit a pull request! If you want to add a presentation, add it to the `presentations` folder.
