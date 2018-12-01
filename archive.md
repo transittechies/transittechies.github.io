@@ -23,14 +23,14 @@ Recap by [Michael Zhang](https://twitter.com/mzhang13) on [Medium](https://mediu
 ### Speakers
 - Kate Chanba [@kchanba](https://twitter.com/kchanba) and David Emory [@martarider](https://twitter.com/martarider)
   - Design and technical challenges with producing programmatically generated transit schematic maps in [transitive.js](https://github.com/conveyal/transitive.js/).
-  - Slides available [here](presentations/2018-08-29_ChanbaEmory_transitivejs.pdf).
+  - [Slides](presentations/2018-08-29_ChanbaEmory_transitivejs.pdf).
 - Ray Cha [@weatherpattern](https://twitter.com/weatherpattern)
   - Getting started developing with open data using the [Open Transit Data Toolkit](https://transitdatatoolkit.com/).
   - Coverage from [project blog](https://transitdatatoolkit.com/2018/10/08/recent-presentations/).
   - [Slides](https://weatherpattern.github.io/transit-techies-180829/#/)
 - Noah Greenbaum
   - How Coord consolidated bike share APIs across the country to create their unified [Bike Share API](https://coord.co/docs/bike) and it can be queried.
-  - Slides available [here](presentations/2018-08-29_Greenbaum_Coord.pdf).
+  - [Slides](presentations/2018-08-29_Greenbaum_Coord.pdf).
 
 ## #2: Second Avenue Segfaults - 7/11/2018
 
@@ -44,7 +44,7 @@ Recap by [Pranav Badami](https://twitter.com/Pranav_Badami) on [HackerNoon](http
   - Coverage from [C2SMART](http://c2smart.engineering.nyu.edu/2018/07/13/c2smart-student-presents-at-transit-techies-nyc/) at NYU Tandon.
 - Mary Buchanan [@Mary_LBee](https://twitter.com/Mary_LBee), TransitCenter
   - Results from the GTFS-realtime data cleaning (by Neil Freeman [@fitnr](https://twitter.com/fitnr)) to produce the bus report cards for [Bus Turnaround](http://busturnaround.nyc).
-  - Slides available [here](presentations/2018-07-11_Buchanan_BusTurnaround.pdf).
+  - [Slides](presentations/2018-07-11_Buchanan_BusTurnaround.pdf).
 - Alex Hill, David Bromwich, and Josselin Philippe, Motivate
   - What inspired the building of Bike Inspector, the Motivate app for tracking Citi Bike repair activity, and how it works to validate bike assets to improve the flow of work orders.
 
@@ -57,7 +57,7 @@ Recap by Pranav Badami on [Medium](https://medium.com/@pranavbadami/transittechi
   - How to use Processing & P5.js to build transit visualizations, specifically for [TransitFlow](https://github.com/transitland/transitland-processing-animation).
 - Kathryn Killebrew [@Banderkat](https://twitter.com/Banderkat)
   -  Lessons from working on trip routing for [GoPhillyGo](https://gophillygo.org), a trip planning tool for biking, walking, and transit.
-  - Slides available [here](presentations/2018-05-23_Killebrew_GoPhillyGo.pdf).
+  - [Slides](presentations/2018-05-23_Killebrew_GoPhillyGo.pdf).
 - Jiaxu Zhou
   - Analytical methods for mapping potential Citibike usage in the outer boroughs.
 - Dan Vanderkam [@danvdk](https://twitter.com/danvdk)
