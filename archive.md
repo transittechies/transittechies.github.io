@@ -1,3 +1,14 @@
+## #5: GTF5 - 11/28/2018
+
+### Speakers
+
+- Abhijit Valluri
+  - Fetching MTA real-time arrivals for a personal transit app for his Garmin smartwatch.
+- Mallory Bulkley [@mallorybulkley](https://twitter.com/mallorybulkley/)
+  - [A Day in the Life of Citi Bike](https://mallorybulkley.com/citi-bike-visualization/): Visualizing of all Citibike trips taken in a single day, filtered by various rider demographics.
+- Scott Morris [@smorris777](https://twitter.com/smorris777)
+  - Latesting and upcoming features of the MYmta mobile app, which was recently launched as the official app of the MTA with real-time information across modes and agencies.
+
 ## #4: Four the Love of Transit - 10/17/2018
 
 Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-nyc-4-four-the-love-of-transit-317b6fcb8a31).
