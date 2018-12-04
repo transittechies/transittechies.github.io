@@ -1,5 +1,7 @@
 ## #5: GTF5 - 11/28/2018
 
+Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-5-gtf5-950673bdce51).
+
 ### Speakers
 
 - Abhijit Valluri
