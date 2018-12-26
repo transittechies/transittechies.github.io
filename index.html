@@ -3,7 +3,7 @@ layout: default
 title: Transit Techies NYC
 permalink: /
 ---
-{% raw  %}
+<!-- {% raw  %}
 <section id="jumbotron">
   <div src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=upcoming">
     <h2>{{local_date}}</h2>
@@ -11,18 +11,17 @@ permalink: /
     <button class="ampstart-btn" href="{{link}}" target="_blank" rel="noopener">RSVP</button>
   </div>
 </section>
-{% endraw  %}
+{% endraw  %} -->
 
-<header>
-  <h1 class="mb1 px3 pt2 section-title">Transit Techies NYC</h1>
-<amp-img src="../img/header3.jpg" width="2000" height="1120" layout="responsive" alt="Meetup photo" class="mb4 mx3"></amp-img>
-</header>
-
-<section>
+<section id="title-section">
 <span id="about"></span>
-<p class="mb4 px3">Bringing together the technologists who love transit, and the transit enthusiasts who hack!</p>
-<p class="mb4 px3">We'll have speakers present transit-related projects. Presenters may be household hackers, data scientists, researchers, product developers, or you! All presentations will be technical and awesome.</p>
-<p class="mb4 px3">Our group is inspired by the legendary <a class="link" href="https://www.meetup.com/Transportation-Techies/" title="https://www.meetup.com/Transportation-Techies/" target="_blank" rel="noopener">DC Transportation Techies</a> run by <a class="link" href="https://twitter.com/mvs202" title="https://twitter.com/mvs202" target="_blank" rel="noopener">Michael Schade</a>.
+<amp-img src="../img/header3.jpg" width="2000" height="1120" layout="responsive" alt="Meetup photo" class="mb2"></amp-img>
+<h2 class="center">Technologists who love transit. </br> Transit enthusiasts who hack!</h2>
+<p class="px3">Bringing together the technologists who love transit, and the transit enthusiasts who hack!</p>
+<p class="px3">We'll have speakers present transit-related projects. Presenters may be household hackers, data scientists, researchers, product developers, or you! All presentations will be technical and awesome.</p>
+<p class="px3">Our group is inspired by the legendary <a class="link" href="https://www.meetup.com/Transportation-Techies/" title="https://www.meetup.com/Transportation-Techies/" target="_blank" rel="noopener">DC Transportation Techies</a> run by <a class="link" href="https://twitter.com/mvs202" title="https://twitter.com/mvs202" target="_blank" rel="noopener">Michael Schade</a>.
+</p>
+</section>
 
 {% include body-submit.html %}
 
