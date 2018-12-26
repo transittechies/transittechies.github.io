@@ -13,7 +13,7 @@ permalink: /
 </section>
 {% endraw  %} -->
 
-<section id="title-section">
+<section id="about-section">
 <span id="about"></span>
 <amp-img src="../img/header3.jpg" width="2000" height="1120" layout="responsive" alt="Meetup photo" class="mb2"></amp-img>
 <h2 class="center">Technologists who love transit. </br> Transit enthusiasts who hack!</h2>
@@ -29,12 +29,12 @@ permalink: /
   
 </section>
 
-{% include body-sponsors.html %}
+<!-- {% include body-sponsors.html %} -->
 
-<section id="past-speakers">
+<section id="past-speakers" class="center">
   <h2>Past Speakers</h2>
   <p>We regularly have 3-4 speakers per session.</p>
-  <button class="ampstart-btn ampstart-btn-secondary">PAST EVENTS</button>
+  <a href="/past"><button class="ampstart-btn ampstart-btn-secondary">PAST EVENTS</button></a>
   <div id="past-speakers-container">
     {% for speaker in site.data.pastspeakers %}
     <div class="card">

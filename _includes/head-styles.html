@@ -14,6 +14,12 @@ html, body {
   font-family: Roboto, Helvetica, Droid Sans, sans-serif;
 }
 
+h1 {
+	font-family: Oswald, sans-serif;
+	font-weight: 600;
+	margin: 0 0 1.6rem 0;	
+}
+
 h2 {
 	font-family: Oswald, sans-serif;
 	font-weight: 600;
@@ -62,14 +68,16 @@ button {
 .page-title { position:absolute; left: 50px; font-weight: bold; }
 .page-title a { text-decoration: unset; }
 
-.section-title { text-align: center; }
-
 section {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
 .blocked {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding-left:9999rem;
+  padding-right:9999rem;
 	padding-top: 2.4rem;
 	padding-bottom: 2.4rem;
 }
@@ -207,29 +215,53 @@ section {
    }
  }
 
+/*about section*/
+#about-section {
+	margin-bottom: 3rem;
+}
+
 /*navbar partial*/
+.ttnyc-headerbar {
+	background-color: var(--color-purple);
+	color: white;
+}
+
 .ampstart-sidebar .ampstart-icon {
 	fill: var(--color-purple);
 }
 
+.ampstart-nav-dropdown .ampstart-dropdown>section>header {
+	background-color: var(--color-purple);
+	color: white;
+}
+
+/*page header*/
+.page-header {
+	background-color: var(--color-purple);
+	color: white;
+	margin-bottom: 4rem;
+}
+
 /*body-submit partial*/
 #submit-section {
-  margin: 0 -9999rem;
-  /* add back negative margin value */
-  padding-left:9999rem;
-  padding-right:9999rem;
   background: var(--color-purple);
   color: white;
 }
 
 /*body-videos partial*/
 #videos-section {
-  margin: 0 -9999rem;
-  /* add back negative margin value */
-  padding-left:9999rem;
-  padding-right:9999rem;
   background: var(--color-lightgray);
   color: var(--color-darkgray);
+}
+
+/*past-talks section*/
+#past-presentations {
+	margin-bottom: 4rem;
+}
+
+#past-talks h2{
+	font-family: Helvetica, sans-serif;
+	margin-top: 3rem;
 }
 
 /*footer styles*/
