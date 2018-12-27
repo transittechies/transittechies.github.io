@@ -32,10 +32,6 @@ h3 {
 	margin: 0 0 .5rem 0;
 }
 
-p {
-	margin-bottom: 1rem;
-}
-
 button {
 	margin: 1.2rem 0 0;
 }
@@ -44,12 +40,20 @@ button {
 	padding: .8em 3em;
 }
 
+.button {
+	text-decoration: none;
+}
+
 .primary-btn-white {
 	border-width: 0px;
-	background-color: white;
+	background-color: rgba(255,255,255,0.8);
 	color: var(--color-purple);
 	font-weight: 600;
 	font-size: 1rem;
+}
+
+.primary-btn-white:hover {
+	background-color: white;
 }
 
 .primary-btn-purple {
@@ -59,14 +63,25 @@ button {
 	font-size: 1rem;
 }
 
+.secondary-btn {
+	border-width: 2px;
+	border-color: var(--color-purple);
+	font-weight: 600;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: var(--color-purple);
+}
+
+.secondary-btn:hover {
+	background-color: var(--color-purple);
+	color: white;
+}
+
 .centered {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-.page-title { position:absolute; left: 50px; font-weight: bold; }
-.page-title a { text-decoration: unset; }
 
 section {
   margin-top: 2rem;
@@ -82,32 +97,12 @@ section {
 	padding-bottom: 2.4rem;
 }
 
+.purple {
+	color: var(--color-purple);
+}
+
 #content {
   margin-top: 3.5rem;
-}
-
-#past-speakers-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-#past-speakers-container .card {
-  width: 165px;
-  text-align: center;
-}
-
-#past-speakers-container .card amp-img{
-  /*border-radius: 50%;*/
-  width: 165px;
-  height: 165px;
-}
-
-#past-speakers-container .card .speaker-name {
-  display: inline-block;
-  font-weight: regular;
-  font-size: 1em;
-  margin: 4px auto 16px auto;
 }
 
 .flexb {
@@ -215,16 +210,15 @@ section {
    }
  }
 
-/*about section*/
-#about-section {
-	margin-bottom: 3rem;
-}
-
 /*navbar partial*/
 .ttnyc-headerbar {
 	background-color: var(--color-purple);
 	color: white;
+	font-weight: 600;
 }
+
+.page-title { position:absolute; left: 50px; font-weight: bold; }
+.page-title a { text-decoration: unset; }
 
 .ampstart-sidebar .ampstart-icon {
 	fill: var(--color-purple);
@@ -233,6 +227,26 @@ section {
 .ampstart-nav-dropdown .ampstart-dropdown>section>header {
 	background-color: var(--color-purple);
 	color: white;
+	margin: 0 1rem;
+}
+
+.ampstart-nav-dropdown .ampstart-dropdown>section>header:after {
+	color: white;
+}
+
+.ampstart-nav-dropdown .ampstart-dropdown-item {
+	color: var(--color-purple);
+	text-transform: uppercase;
+	margin: 0 1rem;
+}
+
+/*about section*/
+#about-section {
+	margin-bottom: 3rem;
+}
+
+#about-section p {
+	margin-bottom: 1rem;
 }
 
 /*page header*/
@@ -252,6 +266,32 @@ section {
 #videos-section {
   background: var(--color-lightgray);
   color: var(--color-darkgray);
+}
+
+/*past speakers grid*/
+#past-speakers-container {
+  margin: 4rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#past-speakers-container .card {
+  width: 165px;
+  text-align: center;
+}
+
+#past-speakers-container .card amp-img{
+  /*border-radius: 50%;*/
+  width: 165px;
+  height: 165px;
+}
+
+#past-speakers-container .card .speaker-name {
+  display: inline-block;
+  font-weight: regular;
+  font-size: 1em;
+  margin: 4px auto 16px auto;
 }
 
 /*past-talks section*/
