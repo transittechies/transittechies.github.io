@@ -1,4 +1,4 @@
-<h1 class="mb1 px3 pt2 center">Previous Talks</h1>
+<h2 class="center">Previous Talks</h2>
 <p class="center">A library of slides and demos from past presenters.</p>
 
 <section id="presentation-markdown">

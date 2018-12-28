@@ -5,32 +5,10 @@ permalink: /past
 ---
 
 <header class="page-header blocked center">
-  <h1 class="mb4 px3 pt2">Past Events</h1>
+  <h1>Past Events</h1>
 </header>
 
-<section id="schedule">
-<!-- Note: since AMP uses Mustache with braces to render dynamic content, we need to escape markdown processing here -->
-{% raw  %}
-<amp-list class="amp-list-placeholder" noloading width="auto"
-  reset-on-refresh
-  height=600
-  layout="fixed-height" src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=past">
-  
-  <div placeholder class="event-container">
-    <div class="placeholder-card event-item"></div><div class="placeholder-card event-item"></div>
-  </div>
-  <template type="amp-mustache">
-  <div class="card event-item">
-    <a href="{{link}}" target="_blank" rel="noopener"><amp-img width="100" height="100" alt="Calendar icon" src="/img/cal_icon.svg"></amp-img></a>
-    <h4><a href="{{link}}" target="_blank" rel="noopener">{{name}}</a></h4>
-    <p>{{local_date}} {{local_time}}</p>
-    <p>{{venue_name}}, {{venue_address_1}}, {{venue_city}}</p>
-  </div>
-  </template>
-</amp-list>
-{% endraw  %}
-
-</section>
+{% include body-schedule.html %}
 
 {% include body-videos.html %}
 
