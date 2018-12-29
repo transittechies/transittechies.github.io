@@ -3,22 +3,27 @@ layout: default
 title: Transit Techies NYC
 permalink: /
 ---
-<!-- {% raw  %}
-<section id="jumbotron">
-  <div src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=upcoming">
-    <h2>{{local_date}}</h2>
-    <h1>{{name}}</h1>
-    <button class="ampstart-btn" href="{{link}}" target="_blank" rel="noopener">RSVP</button>
-  </div>
-</section>
-{% endraw  %} -->
+{% raw  %}
+<header class="page-header blocked center" id="jumbotron">
+  <amp-list class="amp-list-placeholder" noloading width="auto"
+  reset-on-refresh
+  height=280 src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=upcoming">
+  <template type="amp-mustache">
+    <div class="container">
+      <h3 class="mb2">Next Event</h3>
+      <h2 class="mb1">{{local_date}}</h2>
+      <h1 class="mb4">{{name}}</h1>
+      <a href="{{link}}" title="RSVP" target="_blank" rel="noopener" class="button"><button class="ampstart-btn primary-btn-white centered">RSVP</button></a>
+    </div>
+  </template>
+</header>
+{% endraw  %}
 
 <section id="about-section">
 <span id="about"></span>
 <amp-img src="../img/header3.jpg" width="2000" height="1120" layout="responsive" alt="Meetup photo" class="mb2"></amp-img>
-<h2 class="center">Technologists who love transit. </br> Transit enthusiasts who hack!</h2>
-<p class="px3">Bringing together the technologists who love transit, and the transit enthusiasts who hack!</p>
-<p class="px3">We'll have speakers present transit-related projects. Presenters may be household hackers, data scientists, researchers, product developers, or you! All presentations will be technical and awesome.</p>
+<h2 class="px3 center">Technologists who love transit. </br> Transit enthusiasts who hack!</h2>
+<p class="px3">Speakers present transit-related projects. Presenters may be household hackers, data scientists, researchers, product developers, or you! All presentations will be technical and awesome.</p>
 <p class="px3">Our group is inspired by the legendary <a class="link" href="https://www.meetup.com/Transportation-Techies/" title="https://www.meetup.com/Transportation-Techies/" target="_blank" rel="noopener">DC Transportation Techies</a> run by <a class="link" href="https://twitter.com/mvs202" title="https://twitter.com/mvs202" target="_blank" rel="noopener">Michael Schade</a>.
 </p>
   <a href="https://www.meetup.com/Transit-Techies-NYC" target="_blank" rel="noopener" class="button"><button class="ampstart-btn ampstart-btn-secondary secondary-btn centered">Meetup Page</button></a>
@@ -27,10 +32,15 @@ permalink: /
 {% include body-submit.html %}
 
 <section id="photo-collage">
-  
+  <div class="clearfix">
+    <amp-img src="../img/gallery/ttnyc1.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo" class="sm-col sm-col-6"></amp-img>
+    <amp-img src="../img/gallery/ttnyc2.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo" class="sm-col sm-col-6"></amp-img>
+    <amp-img src="../img/gallery/ttnyc3.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo" class="sm-col sm-col-6"></amp-img>
+    <amp-img src="../img/gallery/ttnyc4.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo" class="sm-col sm-col-6"></amp-img>
+  </div>
 </section>
 
-<!-- {% include body-sponsors.html %} -->
+{% include body-partners.html %}
 
 <section id="past-speakers" class="center">
   <h2 class="purple">Past Speakers</h2>
@@ -56,7 +66,7 @@ permalink: /
     <div class="card">
       <span class="speaker-name">This could be you!</span>
       <br /><br />
-      <p>Want to be a speaker? <a class="link" href="https://goo.gl/forms/yHRxsngEwGvJHQux2" title="https://goo.gl/forms/yHRxsngEwGvJHQux2" target="_blank" rel="noopener">Click here to submit your idea for a talk!</a></p>
+      <p>Want to be a speaker? <a class="link" href="https://goo.gl/forms/yHRxsngEwGvJHQux2" title="https://goo.gl/forms/yHRxsngEwGvJHQux2" target="_blank" rel="noopener">Submit your idea for a talk!</a></p>
     </div>
   </div>
 </section>

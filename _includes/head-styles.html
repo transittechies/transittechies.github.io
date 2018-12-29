@@ -22,7 +22,7 @@ h1 {
 
 h2 {
 	font-family: Oswald, sans-serif;
-	font-weight: 600;
+	font-weight: 800;
 	margin: 0 0 1.2rem 0;
 }
 
@@ -32,8 +32,17 @@ h3 {
 	margin: 0 0 .5rem 0;
 }
 
+h4 {
+	font-weight: 600;
+	margin: 0 0 .5rem 0;
+}
+
 button {
 	margin: 1.2rem 0 0;
+}
+
+* {
+	box-sizing: inherit;
 }
 
 .ampstart-btn {
@@ -54,6 +63,10 @@ button {
 
 .primary-btn-white:hover {
 	background-color: white;
+}
+
+.primary-btn-white:active, .primary-btn-white:focus {
+	outline: none;
 }
 
 .primary-btn-purple {
@@ -118,12 +131,6 @@ section {
   margin-left: auto;
 }
 
-.event-item {
-  display: block;
-  min-height: 110px;
-  width: 80%;
-}
-
 .card {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1);
   transition: 0.2s;
@@ -143,28 +150,6 @@ section {
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.event-item amp-img {
-    border-radius: 5px 5px 0 0;
-    float: left;
-    margin-right: 16px;
-}
-
-.events {
-    display: block;
-    height: 110px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    background: #fff;
-    border-radius: 2px;
-    margin-bottom: 15px;
-    padding: 5px;
-    position: relative;
-  }
-
-.events amp-img {
-    float: left;
-    margin-right: 16px;
 }
 
 .amp-list-placeholder div[placeholder] div {
@@ -238,6 +223,11 @@ section {
 	color: var(--color-purple);
 	text-transform: uppercase;
 	margin: 0 1rem;
+	line-height: 2.4rem;
+}
+
+.i-amphtml-accordion-header:focus {
+	outline: none;
 }
 
 /*about section*/
@@ -253,13 +243,25 @@ section {
 .page-header {
 	background-color: var(--color-purple);
 	color: white;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
+}
+
+.page-header h2 {
+	font-family: Roboto, Helvetica, Droid Sans, sans-serif;
+	font-weight: 400;
+	font-size: 1.8rem;
 }
 
 /*body-submit partial*/
 #submit-section {
   background: var(--color-purple);
   color: white;
+}
+
+/*body-partners partial*/
+#partners-section {
+  background: var(--color-lightgray);
+  color: var(--color-darkgray);
 }
 
 /*body-videos partial*/
@@ -269,6 +271,10 @@ section {
 }
 
 /*past speakers grid*/
+#past-speakers {
+	margin-top: 4rem;
+}
+
 #past-speakers-container {
   margin: 4rem 0;
   display: flex;
@@ -282,7 +288,6 @@ section {
 }
 
 #past-speakers-container .card amp-img{
-  /*border-radius: 50%;*/
   width: 165px;
   height: 165px;
 }
@@ -296,6 +301,7 @@ section {
 
 /*past-talks section*/
 #past-presentations {
+	margin-top: 4rem;
 	margin-bottom: 4rem;
 }
 
@@ -303,6 +309,45 @@ section {
 	font-family: Helvetica, sans-serif;
 	margin-top: 3rem;
 }
+
+/*schedule cards section*/
+.event-item {
+  display: block;
+  min-height: 140px;
+  border-style: solid;
+  border-color: var(--color-purple);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  /*  width: 80%;*/
+}
+
+.event-item amp-img {
+    border-radius: 5px 5px 0 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.event-item-body {
+	margin-bottom: 0.8rem;
+}
+
+.event-item-body a {
+	text-decoration: none;
+	color: black;
+}
+
+.event-item-link {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	color: var(--color-purple);
+	margin-right: 2rem;
+}
+
+.event-item-link:visited {
+	color: var(--color-purple);
+}
+
 
 /*footer styles*/
 .ampstart-footer {
