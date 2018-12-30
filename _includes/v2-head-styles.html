@@ -554,4 +554,157 @@ footer {
   }
 }
 
+/* Train animation section
+   This is an animation that can be used as a placeholder or just for fun
+ */
+
+
+.section-train {
+  height: 300px;
+}
+
+.train-container {
+  position: relative;
+  background: #cccccc;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 100px 120px;
+  height: 200px;
+  width: 100%;
+  padding-bottom: 6px;
+  animation: skyChange 30s linear infinite;
+  -webkit-animation: skyChange 30s linear infinite;
+}
+
+.train-container:after {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 3px solid #334E55;
+  border-bottom: 3px dashed #334E55;
+}
+
+.train-cab {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("icon_train.svg");
+  background-position: calc(0% - 335px) calc(100% - 6px);
+  background-size: 327px 100px;
+  width: 100%;
+  height: 110px;
+  background-repeat: no-repeat;
+  animation: movingtrain 10s linear infinite;
+  -webkit-animation: movingtrain 10s linear infinite;
+}
+
+.train-star {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-image: url("star.svg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  animation: starChange 30s linear infinite;
+  -webkit-animation: starChange 30s linear infinite;
+}
+
+.train-star:nth-of-type(1) {
+  top: 10%;
+  left: 10%;
+  animation-delay: -0.5s
+  -webkit-animation-delay: -0.5s
+}
+
+.train-star:nth-of-type(2) {
+  top: 25%;
+  left: 30%;
+  animation-delay: 0.7s
+  -webkit-animation-delay: 0.7s
+}
+
+.train-star:nth-of-type(3) {
+  top: 15%;
+  left: 50%;
+  animation-delay: 0.5s
+  -webkit-animation-delay: 0.5s
+}
+
+.train-star:nth-of-type(4) {
+  top: 20%;
+  left: 70%;
+  animation-delay: 0.3s
+  -webkit-animation-delay: 0.3s
+}
+
+.train-star:nth-of-type(5) {
+  top: 10%;
+  left: 75%;
+  animation-delay: -0.3s
+  -webkit-animation-delay: -0.3s
+}
+
+.train-star:nth-of-type(6) {
+  top: 30%;
+  left: 60%;
+  animation-delay: -0.7s
+  -webkit-animation-delay: -0.7s
+}
+
+@keyframes movingtrain {
+  to {
+    background-position: calc(100% + 335px) calc(100% - 6px);
+  }
+}
+
+@keyframes skyChange {
+  0% {
+    background-color: #A9D5FC;
+  }
+  50% {
+    background-color: #191A38;
+  }
+  100% {
+    background-color: #A9D5FC;
+  }
+}
+
+@keyframes starChange {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  43% {
+    opacity: 0.6;
+  }
+  47% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  53% {
+    opacity: 0.9;
+  }
+  57% {
+    opacity: 0.6;
+  }
+  60% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 </style>

@@ -7,8 +7,7 @@ permalink: /new
   <div class="pure-g">
     <div class="pure-u-md-1-5"></div>
     <div class="pure-u-1 pure-u-md-3-5">
-      {% raw  %}
-      <amp-list class="amp-list-placeholder" layout="fixed-height" height="280px" noloading reset-on-refresh src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=upcoming">
+      <amp-list class="amp-list-placeholder" layout="fixed-height" height="360px" noloading reset-on-refresh src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=upcoming">
         <div placeholder>
           <div class="next-event-hero center">
             <div class="lds-circle"><div></div></div>
@@ -17,9 +16,11 @@ permalink: /new
         <div fallback>
           <div class="next-event-hero">
             <span class="next-event-title center">Welcome to Transit Techies NYC!</span>
+            {% include v2-body-trainanimation.html %}
             <span class="next-event-callout center">Scroll down to learn more</span>
           </div>
         </div>
+        {% raw  %}
         <template type="amp-mustache">
           <div class="next-event-hero">
             <span class="next-event-callout center">Next Event</span>
@@ -28,8 +29,8 @@ permalink: /new
             <div class="centering-div"><a href="{{link}}" target="_blank" rel="noopener" class="pure-button button-white button-xlarge">RSVP</a></div>
           </div>
         </template>
+        {% endraw  %}
       </amp-list>
-      {% endraw  %}
     </div>
   </div>
 </article>
