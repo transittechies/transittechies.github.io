@@ -24,8 +24,6 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
   --color-darkgray: #4B4B4B;
   --color-midgray: #B3B3B3;
   --color-lightgray: #D8D8D8;
-  --color-trainred: #e04f60;
-  --color-trainyellow: #ffc928;
 }
 
 h1 {
@@ -88,16 +86,32 @@ footer {
   width: 100vw;
   max-width: 100vw;
   height: 100px;
-  background-color: #ffffff;
+  background-color: var(--color-darkgray);
   color: #000000;
   text-align: center;
-  padding-top: 20px;
+  padding: 2.4rem 0;
 }
 
+@font-face {
+  font-display: swap;
+}
+
+figcaption {
+  font-size: 0.9rem;
+}
+
+.image-credit {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Used to set the SVG color based on surrounding color */
 svg {
   fill: currentColor;
 }
 
+/* Clean up lists */
 .horiz-list ul {
   list-style: none;
 }
@@ -108,6 +122,15 @@ svg {
   margin-right: 5px;
 }
 
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Styles for the navbar and sidebar.
+   These are somewhat specific to AMP, such
+   as the accordion and dropdown
+ */
 .header-navbar {
   position: fixed;
   left: 0;
@@ -214,11 +237,6 @@ svg {
   margin-bottom: 1.5rem;
 }
 
-.list-reset {
-  list-style: none;
-  padding-left: 0;
-}
-
 .sidebar-dropdown>section>header {
   background-color: transparent;
   margin-bottom: 20px;
@@ -239,16 +257,6 @@ svg {
   content: "–";
 }
 
-figcaption {
-  font-size: 0.9rem;
-}
-
-.image-credit {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
 /* using the :not() selector to avoid conflicting with PureCSS buttons */
 a:visited:not(.pure-button) {
   color: inherit;
@@ -262,6 +270,8 @@ a:not(.pure-button):not(.text-decoration-none) {
   color: inherit;
   text-decoration: none;
 }
+
+/* This code makes the link underlines animate! */
 /* 
 a:hover:not(.pure-button):not(.text-decoration-none) {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23310967' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
@@ -278,10 +288,6 @@ a.pure-button {
 }
 
 /* Borrowed from AMPStart. Useful for hiding base on device size */
-@font-face {
-  font-display: swap;
-}
-
 @media (max-width: 40rem) {
   .xs-hide {
     display: none
@@ -351,6 +357,7 @@ article:first-of-type {
   margin-top: 60px;
 }
 
+/* Next event section styles */
 .next-event-callout {
   font-size: 1rem;
   margin-bottom: 10px;
@@ -374,13 +381,11 @@ article:first-of-type {
   font-family: Oswald, sans-serif;
 }
 
-
-/*past speakers grid*/
-
+/* Past speakers grid*/
 .card {
   box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1);
   transition: 0.2s;
-  border-radius: 1px; /* 1px rounded corners */
+  border-radius: 1px;
   margin: 10px auto 5px auto;
   padding: 0px;
 }
@@ -417,6 +422,7 @@ article:first-of-type {
   margin: 4px auto 16px auto;
 }
 
+/* For the generic share icons section */
 .share-icons ul {
   list-style: none;
 }
@@ -427,14 +433,7 @@ article:first-of-type {
   margin-right: 5px;
 }
 
-footer {
-  background-color: var(--color-darkgray);
-  color: #ffffff;
-  padding: 2.4rem 0;
-}
-
-
-/*schedule cards section*/
+/* Past events cards section*/
 .event-item {
   display: block;
   min-height: 140px;
@@ -523,8 +522,7 @@ footer {
 }
 
 
-/* SPINNER */
-
+/* Spinner for loading */
 .lds-circle {
   display: inline-block;
   transform: translateZ(1px);
@@ -557,8 +555,6 @@ footer {
 /* Train animation section
    This is an animation that can be used as a placeholder or just for fun
  */
-
-
 .section-train {
   height: 300px;
 }
