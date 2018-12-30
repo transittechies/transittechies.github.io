@@ -64,6 +64,12 @@ article.page {
   text-align: center;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .centering-div {
   width: 100%;
   text-align: center;
@@ -428,6 +434,95 @@ footer {
 }
 
 
+/*schedule cards section*/
+.event-item {
+  display: block;
+  min-height: 140px;
+  border-style: solid;
+  border-color: var(--color-purple);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 1px -1px rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.event-item amp-img {
+    border-radius: 5px 5px 0 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.event-item .event-item-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--color-purple);
+  margin-right: 2rem;
+}
+
+.event-item .event-item-link:visited {
+  color: var(--color-purple);
+}
+
+.placeholder-card {
+  background:
+    linear-gradient(90deg, rgba(211, 211, 211, 0) 0, rgba(211, 211, 211, 0.8) 50%, rgba(211, 211, 211, 0) 100%),
+    linear-gradient(#dddddd 100%, transparent 0),
+    linear-gradient(#dddddd 100%, transparent 0),
+    linear-gradient(#dddddd 100%, transparent 0),
+    linear-gradient(#dddddd 100%, transparent 0);
+  background-blend-mode: darken;
+  background-size:
+    80px 150px,
+    50px 50px,
+    50% 20px,
+    50% 20px,
+    50% 20px;
+  background-repeat: no-repeat;
+  background-position:
+    -150% 0,
+    20px 60px,
+    100px 20px,
+    100px 70px,
+    100px 120px;
+  -webkit-animation: loading 1.0s linear infinite;
+  animation: loading 1.0s linear infinite;
+}
+
+@keyframes loading {
+  to {
+    background-position:
+    70% 0,
+    20px 60px,
+    100px 20px,
+    100px 70px,
+    100px 120px;
+  }
+}
+
+@-webkit-keyframes loading {
+  to {
+    background-position:
+    70% 0,
+    20px 60px,
+    100px 20px,
+    100px 70px,
+    100px 120px;
+  }
+}
+
+/* amp-list doesn't allow for the page to jump when loading.
+   This means that if overflow happens in the viewport, we need
+   to use the overflow feature.
+   Documentation: https://www.ampproject.org/docs/reference/components/amp-list#specifying-an-overflow
+*/
+.list-overflow[overflow] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
 /* SPINNER */
 
 .lds-circle {
@@ -458,6 +553,5 @@ footer {
     transform: rotateY(3600deg);
   }
 }
-
 
 </style>
