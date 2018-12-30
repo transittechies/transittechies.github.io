@@ -38,6 +38,8 @@ exports.getEvents = (req, res) => {
     resp.on('end', () => {
       parsedData = JSON.parse(data);
       for (i = 0; i < parsedData.length; i++) { 
+        var theDate = new Date(parsedData[i].time);
+        var formattedDate = theDate.toLocaleString('en-us', { month: 'long' , day: 'numeric', year: 'numeric'});
         var eventInstance = {
           name: parsedData[i].name,
           status: parsedData[i].status,
@@ -46,7 +48,8 @@ exports.getEvents = (req, res) => {
           local_time: parsedData[i].local_time,
           venue_name: parsedData[i].venue.name,
           venue_address_1: parsedData[i].venue.address_1,
-          venue_city: parsedData[i].venue.city
+          venue_city: parsedData[i].venue.city,
+          formatted_date: formattedDate
         };
 
         resultList.push(eventInstance);

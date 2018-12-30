@@ -1,0 +1,110 @@
+---
+layout: v2layout
+title: Transit Techies NYC
+permalink: /new
+---
+<article class="section-purple">
+  <div class="pure-g">
+    <div class="pure-u-md-1-5"></div>
+    <div class="pure-u-1 pure-u-md-3-5">
+      {% raw  %}
+      <amp-list class="amp-list-placeholder" layout="fixed-height" height="280px" noloading reset-on-refresh src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=upcoming">
+        <div placeholder>
+          <div class="next-event-hero center">
+            <div class="lds-circle"><div></div></div>
+          </div>
+        </div>
+        <div fallback>
+          <div class="next-event-hero">
+            <span class="next-event-title center">Welcome to Transit Techies NYC!</span>
+            <span class="next-event-callout center">Scroll down to learn more</span>
+          </div>
+        </div>
+        <template type="amp-mustache">
+          <div class="next-event-hero">
+            <span class="next-event-callout center">Next Event</span>
+            <span class="next-event-date center">{{formatted_date}}</span>
+            <span class="next-event-title center">{{name}}</span>
+            <div class="centering-div"><a href="{{link}}" target="_blank" rel="noopener" class="pure-button button-white button-xlarge">RSVP</a></div>
+          </div>
+        </template>
+      </amp-list>
+      {% endraw  %}
+    </div>
+  </div>
+</article>
+
+<article>
+  <div class="pure-g">
+    <div class="pure-u-md-1-5"></div>
+    <div class="pure-u-1 pure-u-md-3-5">
+      <amp-img src="../img/header3.jpg" width="2000" height="1120" layout="responsive" alt="Meetup photo"></amp-img>
+      <h2 class="center">Technologists who love transit.<br />Transit enthusiasts who hack!</h2>
+      <p>Speakers present transit-related projects. Presenters may be household hackers, data scientists, researchers, product developers, or you! All presentations will be technical and awesome.</p>
+      <p>Our group is inspired by the legendary <a class="link" href="https://www.meetup.com/Transportation-Techies/" title="https://www.meetup.com/Transportation-Techies/" target="_blank" rel="noopener">DC Transportation Techies</a> run by <a class="link" href="https://twitter.com/mvs202" title="https://twitter.com/mvs202" target="_blank" rel="noopener">Michael Schade</a>.
+      </p>
+      <div class="centering-div">
+        <a href="https://www.meetup.com/Transit-Techies-NYC" target="_blank" rel="noopener" class="pure-button button-white button-xlarge">Meetup Page</a>
+      </div>
+    </div>
+  </div>
+</article>
+
+{% include v2-body-submittalk.html %}
+
+
+<article>
+  <div class="pure-g">
+    <div class="pure-u-md-1-8"></div>
+    <div class="pure-u-1 pure-u-md-3-8">
+      <amp-img src="../img/gallery/ttnyc1.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+    </div>
+    <div class="pure-u-1 pure-u-md-3-8">
+      <amp-img src="../img/gallery/ttnyc2.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+    </div>
+  </div>
+  <div class="pure-g">
+    <div class="pure-u-md-1-8"></div>
+    <div class="pure-u-1 pure-u-md-3-8">
+      <amp-img src="../img/gallery/ttnyc3.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+    </div>
+    <div class="pure-u-1 pure-u-md-3-8">
+      <amp-img src="../img/gallery/ttnyc4.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+    </div>
+  </div>
+</article>
+
+{% include v2-body-partners.html %}
+    
+<article class="past-speakers">
+  <div class="pure-g">
+      <div class="pure-u-md-1-8"></div>
+      <div class="pure-u-1 pure-u-md-3-4">
+      <h2 class="center">Past Speakers</h2>
+      <p>Below is a list of people who have presented at past events. We regularly have 3-4 speakers per session.</p>
+      <div class="past-speakers-container">
+        {% for speaker in site.data.pastspeakers %}
+        <div class="card">
+          {% if speaker.link %}
+          <a href="{{ speaker.link }}" target="_blank" rel="noopener" class="text-decoration-none">
+          {% endif %}
+            {% if speaker.image %}
+            <amp-img src="../img/people/{{ speaker.image }}" width="150" height="150" layout="responsive" alt="User photo"></amp-img>
+            {% else %}
+            <amp-img src="../img/person.svg" width="150" height="150" layout="responsive" alt="User photo"></amp-img>
+            {% endif %}
+            <span class="speaker-name">{{ speaker.name }}</span>
+          {% if speaker.link %}
+          </a>
+          {% endif %}
+        </div>
+        {% endfor %}
+        <div class="card">
+          <span class="speaker-name">This could be you!</span>
+          <br /><br />
+          <p>Want to be a speaker? <a class="text-decoration-none" href="https://goo.gl/forms/yHRxsngEwGvJHQux2" title="https://goo.gl/forms/yHRxsngEwGvJHQux2" target="_blank" rel="noopener">Submit your idea for a talk!</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
