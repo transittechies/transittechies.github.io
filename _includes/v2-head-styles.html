@@ -1,5 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 
 <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
@@ -41,14 +41,15 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
-  font-weight: 800;
+  font-size: 1.4rem;
+  font-weight: 700;
   margin: 0 0 .5rem 0;
 }
 
 h4 {
-  font-weight: 600;
-  margin: 0 0 .5rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 .4rem 0;
 }
 
 p {
@@ -503,12 +504,17 @@ article:first-of-type {
 /* Past events cards section*/
 .event-item {
   display: block;
-  min-height: 140px;
+  min-height: 100px;
   border-style: solid;
   border-color: var(--color-purple);
   margin-bottom: 1rem;
   padding: 1rem;
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 1px -1px rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.event-item p {
+	color: var(--color-darkgray);
+	margin-top: 0.4rem;
 }
 
 .event-item amp-img {
@@ -517,17 +523,18 @@ article:first-of-type {
     margin-bottom: 1rem;
 }
 
-.event-item .event-item-link {
+.event-item .event-item-links a {
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-purple);
   margin-right: 2rem;
 }
 
-.event-item .event-item-link:visited {
+.event-item .event-item-links a:visited {
   color: var(--color-purple);
 }
+
 
 .placeholder-card {
   background:
@@ -574,6 +581,14 @@ article:first-of-type {
     100px 70px,
     100px 120px;
   }
+}
+
+/*past-talks section*/
+#past-talks h2{
+	font-family: Helvetica, sans-serif;
+	font-size: 1.6rem;
+	margin-top: 3rem;
+	color: black;
 }
 
 /* amp-list doesn't allow for the page to jump when loading.

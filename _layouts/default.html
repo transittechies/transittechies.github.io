@@ -1,43 +1,16 @@
+<!--- Copyright 2018 Transit Techies -->
 <!doctype html>
-<!---
-Copyright 2018 Transit Techies
-Based on the AMP Start template by The AMP Start Authors
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-http://www.apache.org/licenses/LICENSE-2.0
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS-IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
--->
-<html ⚡ lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    {% include head-scripts.html %}
-    
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<html amp="" lang="en">
+<head>
+  {% include v2-head-meta.html %}
+  {% include v2-head-scripts.html %}
+  {% include v2-head-styles.html %}
+</head>
+<body>
+  {% include body-navbar.html %}
 
-    <meta name="google-site-verification" content="uqINAJCiiD1hvT2l8JEEhysJgW0sE_u0yCgsChxkslg" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    
-    {% include head-styles.html %}
-  </head>
-  <body>
-    {% include body-navbar.html %}
+  {{ content }}
 
-    <main id="content" role="main" class="">
-      
-        {{ content }}
-      
-    </main>
-
-    {% include body-footer.html %}
-
-  </body>
+  {% include body-footer.html %}
+</body>
 </html>
