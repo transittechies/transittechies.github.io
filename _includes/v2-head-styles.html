@@ -28,19 +28,21 @@ Copyright (c) Nicolas Gallagher and Jonathan Neal
 
 h1 {
   font-family: Oswald, sans-serif;
-  font-weight: 600;
+  font-weight: 800;
+  font-size: 3.2rem;
   margin: 0 0 1.6rem 0; 
 }
 
 h2 {
   font-family: Oswald, sans-serif;
   font-weight: 800;
+  font-size: 2.4rem;
   margin: 0 0 1.2rem 0;
 }
 
 h3 {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 800;
   margin: 0 0 .5rem 0;
 }
 
@@ -49,13 +51,21 @@ h4 {
   margin: 0 0 .5rem 0;
 }
 
+p {
+	line-height: 1.6rem;
+}
+
 article {
-  margin: 30px 0px 0px 0px;
-  padding: 30px 20px 30px 20px;
+  margin: 0px 0px 0px 0px;
+  padding: 3rem 1rem;
 }
 
 article.page {
   margin-top: 65px;
+}
+
+article.nopadding {
+	padding: 0;
 }
 
 .center {
@@ -328,12 +338,36 @@ a.pure-button {
   background-color: var(--color-purple);
 }
 
+.section-white {
+  color: var(--color-darkgray);
+}
+
 .button-white {
   color: var(--color-purple);
-  background-color: #ffffff;
   border-width: 2px;
   border-color: var(--color-purple);
   border-style: solid;
+}
+
+.button-white-primary {
+  background-color: var(--color-lightgray);
+}
+
+.button-white-primary:hover {
+  background-color: #ffffff;
+}
+
+.button-white-secondary {
+  background-color: #ffffff;
+}
+
+.button-white-secondary:hover {
+  background-color: var(--color-purple);
+  color: #ffffff;
+}
+
+.text-purple {
+	color: var(--color-purple);
 }
 
 .button-xsmall {
@@ -352,21 +386,27 @@ a.pure-button {
   font-size: 125%;
 }
 
+
 /* To account for the navbar */
 article:first-of-type {
   margin-top: 60px;
 }
 
+/*header section styles*/
+.header-image {
+	margin-bottom: 2rem;
+}
+
 /* Next event section styles */
 .next-event-callout {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: 10px;
   font-weight: 600;
   display: block;
 }
 
 .next-event-title {
-  font-size: 2.6rem;
+  font-size: 3rem;
   margin-bottom: 5px;
   font-weight: 600;
   display: block;
@@ -376,30 +416,47 @@ article:first-of-type {
 .next-event-date {
   font-size: 1.8rem;
   margin-bottom: 5px;
-  font-weight: 600;
   display: block;
-  font-family: Oswald, sans-serif;
 }
 
-/* Past speakers grid*/
+/* Past speakers section*/
+.past-speakers {
+	margin-top: 1rem;
+}
+
 .card {
-  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.05);
   transition: 0.2s;
   border-radius: 1px;
-  margin: 10px auto 5px auto;
+  margin: 0 auto 1rem auto;
   padding: 0px;
+  background-color: var(--color-lightgray);
+  color: var(--color-darkgray);
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.has-link:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+  background-color: var(--color-darkgray);
+  color: #ffffff;
 }
 
-.past-speakers {
-  margin-top: 4rem;
+.you-speaker:hover {
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
+  background-color: var(--color-darkgray);
+  color: #ffffff;
+}
+
+.card .you-speaker-body {
+	width: 165px;
+	height:165px;
+}
+
+.card .you-speaker-body p {
+	padding: 1rem;
 }
 
 .past-speakers-container {
-  margin: 4rem 0;
+  margin: 1rem 0 4rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -408,6 +465,16 @@ article:first-of-type {
 .past-speakers-container .card {
   width: 165px;
   text-align: center;
+}
+
+.past-speakers-container .card .generic-headshot{
+	width: 85px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.past-speakers-container .card .generic-headshot-container{
+	background-color: #ffffff;
 }
 
 .past-speakers-container .card amp-img{
@@ -419,7 +486,7 @@ article:first-of-type {
   display: inline-block;
   font-weight: regular;
   font-size: 1em;
-  margin: 4px auto 16px auto;
+  margin: 1rem auto;
 }
 
 /* For the generic share icons section */
@@ -586,7 +653,7 @@ article:first-of-type {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url("icon_train.svg");
+  background-image: url("img/icon_train.svg");
   background-position: calc(0% - 335px) calc(100% - 6px);
   background-size: 327px 100px;
   width: 100%;
@@ -600,7 +667,7 @@ article:first-of-type {
   position: absolute;
   width: 15px;
   height: 15px;
-  background-image: url("star.svg");
+  background-image: url("img/star.svg");
   background-repeat: no-repeat;
   background-size: 15px 15px;
   animation: starChange 30s linear infinite;
