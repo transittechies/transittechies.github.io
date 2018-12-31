@@ -92,7 +92,7 @@ permalink: /
 
 {% include body-partners.html %}
     
-<article class="past-speakers section">
+<article class="past-speakers section section-white">
   <div class="pure-g">
       <div class="pure-u-md-1-4"></div>
       <div class="pure-u-1 pure-u-md-1-2">
@@ -138,4 +138,33 @@ permalink: /
       </div>
     </div>
   </div>
+</article>
+<article class="organizers section section-white nopadding">
+  <div class="pure-g">
+      <div class="pure-u-md-1-4"></div>
+      <div class="pure-u-1 pure-u-md-1-2">
+      <h3 class="center text-purple">Organizers</h3>
+      <p class="center">Transit Techies NYC was started in the summer of 2018 by Tyler Green and Kohzy.</p>
+    </div>
+  </div>
+  <div class="pure-g">
+      <div class="pure-u-md-1-8"></div>
+      <div class="pure-u-1 pure-u-md-3-4">
+      <div class="past-speakers-container">
+        {% for organizer in site.data.organizers %}
+        <div class="organizer-profile">
+          <div class="card">
+            <div class="has-link organizer">
+              <a href="{{ organizer.link }}" target="_blank" rel="noopener" class="text-decoration-none">
+                <amp-img src="../img/people/{{ organizer.image }}" width="150" height="150" layout="responsive" alt="organizer photo"></amp-img>
+                <span class="speaker-name">{{ organizer.name }}</span>
+              {% if organizer.link %}
+              </a>
+            </div>
+            {% endif %}
+          </div>
+          <p class="organizer-blurb">{{ organizer.blurb }}</p>
+        </div>
+        {% endfor %}
+      </div></div>
 </article>
