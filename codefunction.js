@@ -57,7 +57,7 @@ exports.getEvents = (req, res) => {
 
       var finalResult = {items: resultList};
       res.status(200).send(JSON.stringify(finalResult));
-
+      
     });
 
   }).on("error", (err) => {

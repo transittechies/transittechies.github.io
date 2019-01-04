@@ -1,8 +1,10 @@
 {
-  "short_name": "TTNYC",
+  "short_name": "TransitTech",
   "name": "Transit Techies NYC",
   "theme_color": "#310967",
-  "background_color": "#ffffff",
+  "background_color": "#310967",
+  "start_url": "/?utm_source=a2hs",
+  "display": "standalone",
   "icons": [
     {
       "src": "launcher-icon-1x.png",
