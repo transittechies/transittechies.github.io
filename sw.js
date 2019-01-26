@@ -17,7 +17,7 @@ if (workbox) {
   );
 
   workbox.routing.registerRoute(
-    /^https:\/\/cdn\.ampproject\.org/,
+    /.*(?:ampproject)\.org.*\.(?:js)$/,
     workbox.strategies.staleWhileRevalidate({
       cacheName: 'amp-project',
     })
