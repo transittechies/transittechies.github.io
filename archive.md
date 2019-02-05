@@ -1,3 +1,16 @@
+## #6: Six-Car Train - 1/30/2019
+
+### Speakers
+
+- Francis Tseng [@frnsys](https://twitter.com/frnsys/)
+  - Modeling and simulating transit demand within the Brazilian city of Belo Horizonte using OpenStreetMap, GTFS, and Connection Scan Algorithm.
+- Sunny Zheng [@SunnysWords](https://twitter.com/SunnysWords/)
+  - How he built and maintained the [North America Intercity Rail Tools map](https://asm.transitdocs.com/) (more commonly known as ASM), which is a culmination of his efforts to increase access to Amtrak real time data.
+- Jacqueline Klopp [@jmklopp1](https://twitter.com/jmklopp1/)
+  - The [Digital Matatus](http://www.digitalmatatus.com/) project, a joint effort to use smartphone data to map the informal minivan (matatu) transportation system in Nairobi.
+- Lauren Tarte [@RacingTheNTrain](https://twitter.com/RacingTheNTrain/) and Anne Halvorsen
+  - Measuring MTA New York City Transit performance in a passenger-centric way and [building a dashboard](http://dashboard.mta.info/) for public accountability on new metrics such as Customer Journey Time Performance.
+
 ## #5: GTF5 - 11/28/2018
 
 Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-5-gtf5-950673bdce51).
