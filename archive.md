@@ -15,6 +15,7 @@ Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medi
   - [Video](https://www.youtube.com/watch?v=8XilfmI4Nh4)
 - Lauren Tarte [@RacingTheNTrain](https://twitter.com/RacingTheNTrain/) and Anne Halvorsen
   - Measuring MTA New York City Transit performance in a passenger-centric way and [building a dashboard](http://dashboard.mta.info/) for public accountability on new metrics such as Customer Journey Time Performance.
+  - [Slides](presentations/2019-01-30_TarteHalvorsen_MTADashboardsMetrics.pdf)
   - [Video](https://www.youtube.com/watch?v=DH0cA_ZLbDI)
 
 ## #5: GTF5 - 11/28/2018
