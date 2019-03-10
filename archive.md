@@ -5,7 +5,8 @@ Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medi
 ### Speakers
 
 - Francis Tseng [@frnsys](https://twitter.com/frnsys/)
-  - Modeling and simulating transit demand within the Brazilian city of Belo Horizonte using OpenStreetMap, GTFS, and Connection Scan Algorithm.
+  - [Modeling and simulating transit demand](https://spaceandtim.es/code/public_transit_routing/) within the Brazilian city of Belo Horizonte using OpenStreetMap, GTFS, and Connection Scan Algorithm.
+  - [GitHub Repo](https://github.com/frnsys/transit_demand_model)
   - [Video](https://www.youtube.com/watch?v=Dn4uyaeMVRA)
 - Sunny Zheng [@SunnysWords](https://twitter.com/SunnysWords/)
   - How he built and maintained the [North America Intercity Rail Tools map](https://asm.transitdocs.com/) (more commonly known as ASM), which is a culmination of his efforts to increase access to Amtrak real time data.
@@ -29,6 +30,7 @@ Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medi
   - [Video](https://www.youtube.com/watch?v=7ugSNfB-xJ0)
 - Mallory Bulkley [@mallorybulkley](https://twitter.com/mallorybulkley/)
   - [A Day in the Life of Citi Bike](https://mallorybulkley.com/citi-bike-visualization/): Visualization of all Citibike trips taken in a single day, filtered by various rider demographics.
+  - [GitHub Repo](https://github.com/mallorybulkley/citi-bike-visualization)
   - [Video](https://www.youtube.com/watch?v=pp2cy0DaEsA)
 - Scott Morris [@smorris777](https://twitter.com/smorris777)
   - Latesting and upcoming features of the MYmta mobile app, which was recently launched as the official app of the MTA with real-time information across modes and agencies.
@@ -41,13 +43,17 @@ Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medi
 ### Speakers
 - Pranav Badami [@Pranav_Badami](https://twitter.com/Pranav_Badami) and Michael Zhang [@mzhang13](https://twitter.com/mzhang13)
   - How they scraped 6+ months of NJ Transit data for over 100,000+ trains, how you can access it, and some interesting data analysis of the country’s 3rd busiest commuter railway.
+  - [Kaggle Data Set](https://www.kaggle.com/pranavbadami/nj-transit-amtrak-nec-performance)
+  - [Blog Post](https://towardsdatascience.com/the-5-stages-of-a-system-breakdown-on-nj-transit-8258127e31e9)
   - [Slides](presentations/2018-10-17_BadamiZhang_NJTransit.pdf)
   - [Video](https://www.youtube.com/watch?v=-IdTpH_ZvXw)
 - Candy Chan [@projsubwaynyc](https://twitter.com/projsubwaynyc)
-  - How she built Project Subway, her work documenting and visualizing the 3D space of NYC subway stations.
+  - How she built [Project Subway NYC](http://www.projectsubwaynyc.com/), her work documenting and visualizing the 3D space of NYC subway stations.
   - [Video](https://www.youtube.com/watch?v=Roc-U1eG5ow)
 - Alex Bell [@Bellspringsteen](https://twitter.com/Bellspringsteen)
   - Using computer vision to study the amount of time bus stops and bike lanes are blocked on the streets of NYC, specifically by UPS trucks.
+  - [NYTimes Article](https://www.nytimes.com/2018/03/15/nyregion/bike-lane-blocked-new-york.html)
+  - [GitHub Repo](https://github.com/Bellspringsteen/OurCamera)
   - [Slides](presentations/2018-10-17_Bell_StatusQuoEverythingSucks.pdf)
   - [Video](https://www.youtube.com/watch?v=ZGPltKDUhUU)
 - Kurt Raschke [@kurtraschke](https://twitter.com/kurtraschke), MTA New York City Transit
@@ -99,4 +105,4 @@ Recap by Pranav Badami on [Medium](https://medium.com/@pranavbadami/transittechi
 - Jiaxu Zhou
   - Analytical methods for mapping potential Citibike usage in the outer boroughs.
 - Dan Vanderkam [@danvdk](https://twitter.com/danvdk)
-  - Insights from NYC Transit Explorer, a tool built by Sidewalk Labs which shows how long it would take to get anywhere in the city via transit, including scenario analysis.
+  - Insights from [NYC Transit Explorer](https://transit.sidewalklabs.com/), a tool built by Sidewalk Labs which shows how long it would take to get anywhere in the city via transit, including scenario analysis.
