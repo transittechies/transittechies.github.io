@@ -1,3 +1,19 @@
+- name: Sunny Ng
+  link: https://twitter.com/_blahblahblah
+  image: Sunny_Ng.jpg
+
+- name: Samara Trilling
+  link: https://twitter.com/samaratrilling
+  image: Samara_Trilling.jpg
+
+- name: Will Geary
+  link: https://twitter.com/wgeary
+  image: Will_Geary.jpg
+
+- name: Eric Goldwyn
+  link: https://twitter.com/ericgoldwyn
+  image: Eric_Goldwyn.jpg
+
 - name: Francis Tseng
   link: https://twitter.com/frnsys
 
@@ -75,10 +91,6 @@
 - name: David Bromwich
 
 - name: Josselin Philippe
-
-- name: Will Geary
-  link: https://twitter.com/wgeary
-  image: Will_Geary.jpg
 
 - name: Kathryn Killebrew
   link: https://twitter.com/Banderkat
