@@ -6,6 +6,7 @@ Recap by [Pranav Badami](https://twitter.com/Pranav_Badami) on [Medium](https://
 - Sunny Ng [@\_blahblahblah](https://twitter.com/_blahblahblah)
   - Building [goodservice.io](https://www.goodservice.io/trains) to keep New Yorkers better informed about real-time subway service statu
   - [GitHub Repo](https://github.com/blahblahblah-/goodservice)
+  - [Slides](https://speakerdeck.com/blahblahblah/goodservice-dot-io)
   - [Video](https://youtu.be/tidjA5EJnl0)
 - Samara Trilling - [(LinkedIn)](https://www.linkedin.com/in/samaratrilling/)
   - Collaboratively ideating and designing with local groups to create a set of transit-related [accessibility principles](https://medium.com/sidewalk-toronto/co-designing-a-more-accessible-community-d6377599f4ce) for smart cities, as the accessibility lead at Sidewalk Labs
