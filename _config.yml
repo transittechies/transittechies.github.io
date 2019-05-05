@@ -10,3 +10,8 @@ github_username:  transittechies
 # Build settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title
+collections:
+  events:
+    output: true
+    permalink: /:collection/:title
