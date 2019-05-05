@@ -9,7 +9,7 @@ address: "10 Hudson Yards, New York, NY 10001"
 ## Meetup information
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/252950626/)
-- Date: {% if page.date %}{{ page.date | date: "%A, %B %-d, %Y" }}{% endif %}
+- Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
 - Time: 6:30 PM to 8:30 PM
 - Where: {% if page.location %}{{ page.location }}{% endif %}, {% if page.address %}{{ page.address }}{% endif %}
 
