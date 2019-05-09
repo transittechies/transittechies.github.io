@@ -1,9 +1,10 @@
 ---
 layout: event
-title: "Transit Techies NYC 4: Four the Love of Transit"
-eventdate: "2018-10-17T18:30-04:00"
-location: "Intersection"
-address: "10 Hudson Yards, New York, NY 10001"
+title: 'Transit Techies NYC #4: Four the Love of Transit'
+eventdate: '2018-10-17T18:30-04:00'
+location: Intersection
+address: '10 Hudson Yards, New York, NY 10001'
+published: true
 ---
 
 ## Meetup information
