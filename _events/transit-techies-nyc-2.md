@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 'Transit Techies NYC 2: Second Avenue Segfaults'
+title: 'Transit Techies NYC #2: Second Avenue Segfaults'
 date: '2018-07-11T18:30-04:00'
 location: Intersection
 address: '10 Hudson Yards, New York, NY 10001'
