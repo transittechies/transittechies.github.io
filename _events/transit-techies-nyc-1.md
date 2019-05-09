@@ -1,9 +1,11 @@
 ---
 layout: event
-title: "Transit Techies NYC 1: Christening the Code Train"
-date: "2018-05-23T19:00-04:00"
-location: "Intersection"
-address: "10 Hudson Yards, New York, NY 10001"
+title: 'Transit Techies NYC 1: Christening the Code Train'
+date: '2018-05-23T19:00-04:00'
+location: Intersection
+address: '10 Hudson Yards, New York, NY 10001'
+published: true
+eventdate: '2018-05-23T19:00-04:00'
 ---
 
 ## Meetup information
