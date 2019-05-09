@@ -3,6 +3,7 @@
   "@context": "https://schema.org",
   "@type": "Event",
   "name": "{% if page.title %}{{ page.title }}{% endif %}",
+  "description": "Presenters may be household hackers, data scientists, researchers, product developers, or you!",
   "startDate": "{% if page.eventdate %}{{ page.eventdate | date_to_xmlschema }}{% endif %}",
   "location": {
     "@type": "Place",
