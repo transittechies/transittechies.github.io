@@ -1,9 +1,10 @@
 ---
 layout: event
-title: "Transit Techies NYC 6: Six-Car Train"
-eventdate: "2019-01-30T18:30-05:00"
-location: "Intersection"
-address: "10 Hudson Yards, New York, NY 10001"
+title: 'Transit Techies NYC #6: Six-Car Train'
+eventdate: '2019-01-30T18:30-05:00'
+location: Intersection
+address: '10 Hudson Yards, New York, NY 10001'
+published: true
 ---
 
 ## Meetup information
