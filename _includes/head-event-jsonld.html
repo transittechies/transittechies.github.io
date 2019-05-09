@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{% if page.title %}{{ page.title }}{% endif %}",
+  "startDate": "{% if page.eventdate %}{{ page.eventdate | date_to_xmlschema }}{% endif %}",
+  "location": {
+    "@type": "Place",
+    "name": "Intersection",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "10 Hudson Yards",
+      "addressLocality": "New York",
+      "postalCode": "10001",
+      "addressRegion": "NY",
+      "addressCountry": "US"
+    }
+  }
+}
+</script>

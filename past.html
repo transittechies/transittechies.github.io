@@ -13,7 +13,15 @@ permalink: /past
   <div class="pure-g">
     <div class="pure-u-md-1-4"></div>
     <div class="pure-u-1 pure-u-md-1-2">
-      {% include talks.md %}
+      <ul>
+        <h2 class="center text-purple">Previous Talks</h2>
+        <p class="center">A library of slides and demos from past presenters.</p>
+        {% for event in site.events %}
+          <li>
+            <a href="{{ event.url }}">{{ event.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </article>
