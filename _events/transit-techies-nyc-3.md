@@ -7,7 +7,7 @@ address: '10 Hudson Yards, New York, NY 10001'
 published: true
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/252950626/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -20,11 +20,11 @@ Ray Cha will show his Open Transit Data Toolkit, a project funded by TransitCent
 
 Noah Greenbaum of Coord will show their recently-launched Bikeshare API and demonstrate use-cases complete with API calls.
 
-## Written recap
+## Written Recap
 
 Recap by [Michael Zhang](https://twitter.com/mzhang13) on [Medium](https://medium.com/@mzhang13/three-projects-helping-to-build-better-transit-tools-for-the-future-bb3176c0f47b).
 
-## Speakers and links
+## Speakers and Links
 
 - Kate Chanba [@kchanba](https://twitter.com/kchanba) and David Emory [@martarider](https://twitter.com/martarider)
   - Design and technical challenges with producing programmatically generated transit schematic maps in [transitive.js](https://github.com/conveyal/transitive.js/).

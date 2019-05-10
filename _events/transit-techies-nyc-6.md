@@ -7,7 +7,7 @@ address: '10 Hudson Yards, New York, NY 10001'
 published: true
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/256886666/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -23,11 +23,11 @@ Jacqueline Klopp will present the Digital Matatus project, a joint effort to use
 Lauren Tarte and Anne Halvorsen will round up the evening with a discussion of the recent Subway and Bus Performance Dashboards that the Data/Research/Development group at New York City Transit have worked on, improving transparency and leveraging passenger-centric performance metrics.
 
 
-## Written recap
+## Written Recap
 
 Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-nyc-6-six-car-train-1a91b22e3815).
 
-## Speakers and links
+## Speakers and Links
 
 - Francis Tseng [@frnsys](https://twitter.com/frnsys/)
   - [Modeling and simulating transit demand](https://spaceandtim.es/code/public_transit_routing/) within the Brazilian city of Belo Horizonte using OpenStreetMap, GTFS, and Connection Scan Algorithm.

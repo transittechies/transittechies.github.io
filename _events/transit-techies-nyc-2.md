@@ -8,7 +8,7 @@ published: true
 eventdate: '2018-07-11T18:30-04:00'
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/252950626/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -23,11 +23,11 @@ Mary Buchanan from TransitCenter will explore how they built the busturnaround.n
 
 Alex Hill, David Bromwich, and Josselin Philippe of Motivate will talk about building Bike Inspector, their app for tracking Citi Bike repair activity. They will cover how Bike Inspector works today to validate bike assets improve the flow of work orders.
 
-## Written recap
+## Written Recap
 
 Recap by [Pranav Badami](https://twitter.com/Pranav_Badami) on [HackerNoon](https://hackernoon.com/four-projects-improving-transportation-in-new-york-city-905fb4cd8bac).
 
-## Speakers and links
+## Speakers and Links
 
 - Will Fisher [@wafisher](https://twitter.com/wafisher), MTA Long Island Rail Road
   - How to convert LIRR track schematics into a graph to inform passengers of real-time train data.

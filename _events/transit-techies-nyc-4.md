@@ -7,7 +7,7 @@ address: '10 Hudson Yards, New York, NY 10001'
 published: true
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/254580357/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -22,11 +22,11 @@ Alex Bell will talk about his personal project using computer vision to study th
 
 Kurt Raschke from MTA New York City Transit will discuss how they implemented TunnelView, which gives NYCT spherical imagery of tracks and station interiors.
 
-## Written recap
+## Written Recap
 
 Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-nyc-4-four-the-love-of-transit-317b6fcb8a31).
 
-## Speakers and links
+## Speakers and Links
 
 - Pranav Badami [@Pranav_Badami](https://twitter.com/Pranav_Badami) and Michael Zhang [@mzhang13](https://twitter.com/mzhang13)
   - How they scraped 6+ months of NJ Transit data for over 100,000+ trains, how you can access it, and some interesting data analysis of the country’s 3rd busiest commuter railway.

@@ -7,7 +7,7 @@ address: '10 Hudson Yards, New York, NY 10001'
 published: true
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/255842450/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -20,11 +20,11 @@ Mallory Bulkley will demo her data visualization of Citibike trips taken in a si
 
 Scott Morris will present on the features of the MyMTA mobile app, which was recently launched as the official app of the MTA with real-time information across modes and agencies.
 
-## Written recap
+## Written Recap
 
 Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-5-gtf5-950673bdce51).
 
-## Speakers and links
+## Speakers and Links
 
 - Abhijit Valluri
   - Fetching MTA real-time arrivals for a personal transit app for his Garmin smartwatch, including an exploration of GTFS-RT, protocol buffers, and agency-specific extensions.

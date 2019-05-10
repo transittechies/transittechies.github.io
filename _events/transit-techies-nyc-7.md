@@ -7,7 +7,7 @@ address: '10 Hudson Yards, New York, NY 10001'
 published: true
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/259203820/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -23,11 +23,11 @@ Will Geary will explore Wayfinder3D, an application he built which fetches route
 Eric Goldwyn will wrap up the night by presenting his work on a redesign of the Brooklyn bus network he built with fellow transit-expert Alon Levy. Their redesign focused on improving average bus speeds and included extensive analysis of BusTime, ridership, and land-use data.
 
 
-## Written recap
+## Written Recap
 
 Recap by [Pranav Badami](https://twitter.com/Pranav_Badami) on [Medium](https://medium.com/@pranavbadami/recap-transit-techies-nyc-7-7-minute-delay-37d334026fa3).
 
-## Speakers and links
+## Speakers and Links
 
 - Sunny Ng [@\_blahblahblah](https://twitter.com/_blahblahblah)
   - Building [goodservice.io](https://www.goodservice.io/trains) to keep New Yorkers better informed about real-time subway service statu

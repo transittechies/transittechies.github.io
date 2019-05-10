@@ -8,7 +8,7 @@ published: true
 eventdate: '2018-05-23T19:00-04:00'
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/249952831/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -23,11 +23,11 @@ Jiaxu Zhou will explore analytical methods for mapping potential Citibike usage 
 
 Dan Vanderkam will discuss NYC Transit Explorer, a tool built by Sidewalk Labs which shows how long it would take to get anywhere in the city via transit, including scenario analysis.
 
-## Written recap
+## Written Recap
 
 Recap by Pranav Badami on [Medium](https://medium.com/@pranavbadami/transittechiesnyc-a-quick-recap-of-the-inaugural-meetup-b7c3a81428f2).
 
-## Speakers and links
+## Speakers and Links
 
 - Will Geary [@wgeary](https://twitter.com/wgeary)
   - How to use Processing & P5.js to build transit visualizations, specifically for [TransitFlow](https://github.com/transitland/transitland-processing-animation).

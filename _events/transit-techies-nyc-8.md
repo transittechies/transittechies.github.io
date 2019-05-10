@@ -7,7 +7,7 @@ address: '10 Hudson Yards, New York, NY 10001'
 published: true
 ---
 
-## Meetup information
+## Details
 
 - RSVP: [Click to go to meetup.com to RSVP](https://www.meetup.com/Transit-Techies-NYC/events/260083847/)
 - Date: {% if page.eventdate %}{{ page.eventdate | date: "%A, %B %-d, %Y" }}{% endif %}
@@ -22,10 +22,10 @@ Clara Chung from Teralytics will demo their product Matrix, which uses telecommu
 
 Adam Pearce will round up the evening with talking about transit visualization work that he did as a graphics editor at The New York Times, as well as relevant personal projects.
 
-## Written recap
+## Written Recap
 
 Coming soon!
 
-## Speakers and links
+## Speakers and Links
 
 Coming soon!
