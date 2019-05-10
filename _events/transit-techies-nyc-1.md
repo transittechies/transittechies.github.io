@@ -33,7 +33,7 @@ Recap by Pranav Badami on [Medium](https://medium.com/@pranavbadami/transittechi
   - How to use Processing & P5.js to build transit visualizations, specifically for [TransitFlow](https://github.com/transitland/transitland-processing-animation).
 - Kathryn Killebrew [@Banderkat](https://twitter.com/Banderkat)
   -  Lessons from working on trip routing for [GoPhillyGo](https://gophillygo.org), a trip planning tool for biking, walking, and transit.
-  - [Slides](presentations/2018-05-23_Killebrew_GoPhillyGo.pdf)
+  - [Slides](/presentations/2018-05-23_Killebrew_GoPhillyGo.pdf)
 - Jiaxu Zhou
   - Analytical methods for mapping potential Citibike usage in the outer boroughs.
 - Dan Vanderkam [@danvdk](https://twitter.com/danvdk)

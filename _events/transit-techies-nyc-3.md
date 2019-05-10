@@ -28,11 +28,11 @@ Recap by [Michael Zhang](https://twitter.com/mzhang13) on [Medium](https://mediu
 
 - Kate Chanba [@kchanba](https://twitter.com/kchanba) and David Emory [@martarider](https://twitter.com/martarider)
   - Design and technical challenges with producing programmatically generated transit schematic maps in [transitive.js](https://github.com/conveyal/transitive.js/).
-  - [Slides](presentations/2018-08-29_ChanbaEmory_transitivejs.pdf)
+  - [Slides](/presentations/2018-08-29_ChanbaEmory_transitivejs.pdf)
 - Ray Cha [@weatherpattern](https://twitter.com/weatherpattern)
   - Getting started developing with open data using the [Open Transit Data Toolkit](https://transitdatatoolkit.com/).
   - Coverage from [project blog](https://transitdatatoolkit.com/2018/10/08/recent-presentations/).
   - [Slides](https://weatherpattern.github.io/transit-techies-180829/#/)
 - Noah Greenbaum
   - How Coord consolidated bike share APIs across the country to create their unified [Bike Share API](https://coord.co/docs/bike) and it can be queried.
-  - [Slides](presentations/2018-08-29_Greenbaum_Coord.pdf)
+  - [Slides](/presentations/2018-08-29_Greenbaum_Coord.pdf)

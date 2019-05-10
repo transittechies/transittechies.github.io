@@ -36,6 +36,6 @@ Recap by [Pranav Badami](https://twitter.com/Pranav_Badami) on [HackerNoon](http
   - Coverage from [C2SMART](http://c2smart.engineering.nyu.edu/2018/07/13/c2smart-student-presents-at-transit-techies-nyc/) at NYU Tandon.
 - Mary Buchanan [@Mary_LBee](https://twitter.com/Mary_LBee), TransitCenter
   - Results from the GTFS-realtime data cleaning (by Neil Freeman [@fitnr](https://twitter.com/fitnr)) to produce the bus report cards for [Bus Turnaround](http://busturnaround.nyc).
-  - [Slides](presentations/2018-07-11_Buchanan_BusTurnaround.pdf)
+  - [Slides](/presentations/2018-07-11_Buchanan_BusTurnaround.pdf)
 - Alex Hill, David Bromwich, and Josselin Philippe, Motivate
   - What inspired the building of Bike Inspector, the Motivate app for tracking Citi Bike repair activity, and how it works to validate bike assets to improve the flow of work orders.
