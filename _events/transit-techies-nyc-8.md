@@ -28,4 +28,16 @@ Coming soon!
 
 ## Speakers and Links
 
-Coming soon!
+- Mary Buchanan
+  - Insights from TransitCenter's newly-released [Transit Insights](http://insights.transitcenter.org/) tool, including multi-city comparisons of key performance indicators for similarly-sized transit agencies.
+  - [Video](https://www.youtube.com/watch?v=EvjgMr46LTY)
+- Lucas Marxen
+  - An overview of the [New Jersey Land Use + Transit Data application](http://www.njlutrans.org/), including its data sources, what metrics it can provide for land surrounding transit stations, and how it is being used to drive land-use decisions in New Jersey.
+  - [Video](https://www.youtube.com/watch?v=Bz1tKC6sS_U)
+- Clara Chung
+  - Using the [Teralytics](https://www.teralytics.net/) platform to understand origin-destination pairs in the New York region and the effect of different transit modes.
+  - [Video](https://www.youtube.com/watch?v=9eVv2B9hO4g)
+- Adam Pearce
+  - Visualizing New York City subway delays and vehicle journeys through his work at the [New York Times](https://www.nytimes.com/interactive/2018/05/09/nyregion/subway-crisis-mta-decisions-signals-rules.html) and on [personal projects](https://roadtolarissa.com/mta-marey/).
+  - [MTA Marey GitHub Repo](https://github.com/1wheel/stringline-status)
+  - [Video](https://www.youtube.com/watch?v=V6U2Kvw8FaU)
