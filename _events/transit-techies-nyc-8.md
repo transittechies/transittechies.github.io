@@ -30,6 +30,7 @@ Coming soon!
 
 - Mary Buchanan
   - Insights from TransitCenter's newly-released [Transit Insights](http://insights.transitcenter.org/) tool, including multi-city comparisons of key performance indicators for similarly-sized transit agencies.
+  - [Slides](/presentations/2019-05-08_Buchanan_TransitInsights.pdf)
   - [Video](https://www.youtube.com/watch?v=EvjgMr46LTY)
 - Lucas Marxen
   - An overview of the [New Jersey Land Use + Transit Data application](http://www.njlutrans.org/), including its data sources, what metrics it can provide for land surrounding transit stations, and how it is being used to drive land-use decisions in New Jersey.
