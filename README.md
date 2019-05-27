@@ -12,4 +12,4 @@ This site is using AMP, so you need to make sure the CSS and elements you are us
 
 ## Contributing
 
-To add talks and content, please edit the `archive.md` file and submit a pull request! If you want to add a presentation, add it to the `presentations` folder using the naming convention `<YYYY-MM-DD>_<last_name>_<topic>.pdf`.
+To add talks and content, please edit the relevant event page in `_events/` and submit a pull request! If you want to add a presentation, add it to the `presentations` folder using the naming convention `<YYYY-MM-DD>_<last_name>_<topic>.pdf`.
