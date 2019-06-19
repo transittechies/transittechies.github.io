@@ -22,10 +22,6 @@ Clara Chung from Teralytics will demo their product Matrix, which uses telecommu
 
 Adam Pearce will round up the evening with talking about transit visualization work that he did as a graphics editor at The New York Times, as well as relevant personal projects.
 
-## Written Recap
-
-Coming soon!
-
 ## Speakers and Links
 
 - Mary Buchanan
