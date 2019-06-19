@@ -1,3 +1,18 @@
+- name: Mary Buchanan
+  link: https://twitter.com/Mary_LBee
+  image: Mary_Buchanan.jpg
+
+- name: Lucas Marxen
+  image: Lucas_Marxen.jpg
+
+- name: Clara Chung
+  link: https://twitter.com/kalamehh
+  image: Clara_Clung.jpg
+
+- name: Adam Pearce
+  link: https://twitter.com/adamrpearce
+  image: Adam_Pearce.png
+
 - name: Sunny Ng
   link: https://twitter.com/_blahblahblah
   image: Sunny_Ng.jpg
@@ -81,10 +96,6 @@
   image: Will_Fisher.jpg
 
 - name: Assel Dmitriyeva
-
-- name: Mary Buchanan
-  link: https://twitter.com/Mary_LBee
-  image: Mary_Buchanan.jpg
 
 - name: Alex Hill
 
