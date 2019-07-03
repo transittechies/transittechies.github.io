@@ -14,7 +14,13 @@ published: true
 - Time: 6:30 PM to 8:30 PM
 - Where: {% if page.location %}{{ page.location }}{% endif %}, {% if page.address %}{{ page.address }}{% endif %}
 
-Speakers announced soon!
+Tara Pham and the Numina team will share some case studies demonstrating their spatio-temporal filtering ("Behavior Zone") technology and how to use this tech through their API. Numina is deployed in 10 cities; they measure traffic in streets and deliver operational analytics for city planners, mobility companies, and developers.
+
+Daniel Ramteke will present Underway NYC and how it consumes the real-time MTA feeds. If you would like to download the app in advance, visit [https://underway.nyc/download](https://underway.nyc/download).
+
+Indraneel Purohit will discuss the work that SharedStreets has been doing, and focus specifically on their open-source Road Closures tool for cities to produce data on road closures easily and consistently.
+
+As always, after the speakers we'll open the floor to announcements anyone might have!
 
 ## Speakers and Links
 
