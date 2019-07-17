@@ -18,8 +18,6 @@ Tara Pham and the Numina team will share some case studies demonstrating their s
 
 Daniel Ramteke will present Underway NYC and how it consumes the real-time MTA feeds. If you would like to download the app in advance, visit [https://underway.nyc/download](https://underway.nyc/download).
 
-Indraneel Purohit will discuss the work that SharedStreets has been doing, and focus specifically on their open-source Road Closures tool for cities to produce data on road closures easily and consistently.
-
 As always, after the speakers we'll open the floor to announcements anyone might have!
 
 ## Speakers and Links
