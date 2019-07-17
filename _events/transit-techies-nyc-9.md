@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 'Transit Techies NYC #9'
+title: 'Transit Techies NYC #9: Skip-Stop Service'
 eventdate: '2019-07-17T18:30-05:00'
 location: Intersection
 address: '10 Hudson Yards, New York, NY 10001'
