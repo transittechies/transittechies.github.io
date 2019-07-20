@@ -1,3 +1,15 @@
+- name: Tara Pham
+  link: https://twitter.com/tarapham
+  image: Tara_Pham.jpg
+
+- name: Pranav Badami
+  link: https://twitter.com/Pranav_Badami
+  image: Pranav_Badami.jpg
+
+- name: Daniel Ramteke
+  link: https://twitter.com/underwaynyc
+  image: Daniel_Ramteke.jpg
+
 - name: Mary Buchanan
   link: https://twitter.com/Mary_LBee
   image: Mary_Buchanan.jpg
@@ -57,10 +69,6 @@
 
 - name: Scott Morris
   link: https://twitter.com/smorris777
-
-- name: Pranav Badami
-  link: https://twitter.com/Pranav_Badami
-  image: Pranav_Badami.jpg
 
 - name: Michael Zhang
   link: https://twitter.com/mzhang13
