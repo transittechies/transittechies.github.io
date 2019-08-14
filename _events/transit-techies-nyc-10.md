@@ -14,7 +14,9 @@ published: true
 - Time: 6:30 PM to 8:30 PM
 - Where: {% if page.location %}{{ page.location }}{% endif %}, {% if page.address %}{{ page.address }}{% endif %}
 
-Laura Rokita will be presenting Pigeon, the newest crowdsourced transit app for New Yorkers (which Laura co-founded). Pigeon provides real-time information for commuters--helping them avoid delays, crowds and disruptions. Pigeon is made up of a community of New Yorkers who want to make the ride better together (while commiserating over shared commuting experiences, such as being packed in a hot subway car, or finding surprising ease from dogs tucked in bags).
+Indraneel Purohit will discuss the work that SharedStreets has been doing, and focus specifically on their open-source Road Closures tool for cities to produce data on road closures easily and consistently.
+
+Evan Otero will be presenting Pigeon, the newest crowdsourced transit app for New Yorkers. Pigeon provides real-time information for commuters--helping them avoid delays, crowds and disruptions. Pigeon is made up of a community of New Yorkers who want to make the ride better together (while commiserating over shared commuting experiences, such as being packed in a hot subway car, or finding surprising ease from dogs tucked in bags).
 
 More speakers will be announced soon.
 
