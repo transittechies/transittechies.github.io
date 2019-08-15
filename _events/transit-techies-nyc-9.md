@@ -24,6 +24,7 @@ As always, after the speakers we'll open the floor to announcements anyone might
 
 - Tara Pham [@tarapham](https://twitter.com/tarapham) and Pranav Badami [@Pranav_Badami](https://twitter.com/Pranav_Badami)
   - How [Numina](http://www.numina.co/) uses Dashboards + `numina-graph` to visualize sensor data and classify it into "Behavior Zones."
+  - [Coverage on Numina site](https://numina.co/numina-presents-at-transit-techies-nyc/)
   - [Video](https://www.youtube.com/watch?v=NmPU3rK4dP4)
 - Daniel Ramteke [@UnderwayNYC](https://twitter.com/UnderwayNYC)
   - How to use [Underway NYC](https://underway.nyc/download) to make informed decisions while riding the NYC subway, and how its "Share a Trip" feature is implemented.
