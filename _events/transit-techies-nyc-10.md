@@ -20,7 +20,7 @@ Melody Starling will present on the rollout of SEPTA of Philadelphia Key cards a
 
 Evan Otero will be presenting Pigeon, the newest crowdsourced transit app for New Yorkers. Pigeon provides real-time information for commuters--helping them avoid delays, crowds and disruptions. Pigeon is made up of a community of New Yorkers who want to make the ride better together (while commiserating over shared commuting experiences, such as being packed in a hot subway car, or finding surprising ease from dogs tucked in bags).
 
-Leo Frachet of Mobility Data will share his work maintaining and improving the GTFS specification, specifically the introduction of GTFS Pathways and how they have been used to model station layouts for MTA New York City Transit.
+Leo Frachet of MobilityData will share his work maintaining and improving the GTFS specification, specifically the introduction of GTFS Pathways and how they have been used to model station layouts for MTA New York City Transit.
 
 As always, after the speakers we'll open the floor to announcements anyone might have!
 
