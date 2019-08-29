@@ -16,9 +16,9 @@ published: true
 
 Indraneel Purohit will discuss the work that SharedStreets has been doing, and focus specifically on their open-source Road Closures tool for cities to produce data on road closures easily and consistently.
 
-Evan Otero will be presenting Pigeon, the newest crowdsourced transit app for New Yorkers. Pigeon provides real-time information for commuters--helping them avoid delays, crowds and disruptions. Pigeon is made up of a community of New Yorkers who want to make the ride better together (while commiserating over shared commuting experiences, such as being packed in a hot subway car, or finding surprising ease from dogs tucked in bags).
-
 Melody Starling will present on the rollout of SEPTA of Philadelphia Key cards and how transit cards can be embedded into random objects. They will demonstrate how these embedded objects can be read with Android readers!	
+
+Evan Otero will be presenting Pigeon, the newest crowdsourced transit app for New Yorkers. Pigeon provides real-time information for commuters--helping them avoid delays, crowds and disruptions. Pigeon is made up of a community of New Yorkers who want to make the ride better together (while commiserating over shared commuting experiences, such as being packed in a hot subway car, or finding surprising ease from dogs tucked in bags).
 
 Leo Frachet of Mobility Data will share his work maintaining and improving the GTFS specification, specifically the introduction of GTFS Pathways and how they have been used to model station layouts for MTA New York City Transit.
 
