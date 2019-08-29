@@ -20,7 +20,7 @@ Evan Otero will be presenting Pigeon, the newest crowdsourced transit app for Ne
 
 Melody Starling will present on the rollout of SEPTA of Philadelphia Key cards and how transit cards can be embedded into random objects. They will demonstrate how these embedded objects can be read with Android readers!	
 
-More speakers will be announced soon.
+Leo Frachet of Mobility Data will share his work maintaining and improving the GTFS specification, specifically the introduction of GTFS Pathways and how they have been used to model station layouts for MTA New York City Transit.
 
 As always, after the speakers we'll open the floor to announcements anyone might have!
 
