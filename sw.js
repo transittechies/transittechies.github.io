@@ -1,4 +1,4 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
 
 if (workbox) {
   console.log(`Workbox is loaded`);
@@ -11,24 +11,26 @@ if (workbox) {
 
   workbox.routing.registerRoute(
     new RegExp('/'),
-    workbox.strategies.staleWhileRevalidate({
+    new workbox.strategies.StaleWhileRevalidate({
       cacheName: 'ttnyc',
     })
   );
 
   workbox.routing.registerRoute(
     /.*(?:ampproject)\.org.*\.(?:js)$/,
-    workbox.strategies.staleWhileRevalidate({
+    new workbox.strategies.StaleWhileRevalidate({
       cacheName: 'amp-project',
     })
   );
 
   workbox.routing.registerRoute(
     /^https:\/\/fonts\.googleapis\.com/,
-    workbox.strategies.staleWhileRevalidate({
+    new workbox.strategies.StaleWhileRevalidate({
       cacheName: 'google-fonts',
     })
   );
+
+  workbox.precaching.cleanupOutdatedCaches();
 
 } else {
   console.log(`Workbox didn't load`);

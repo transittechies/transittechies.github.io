@@ -14,7 +14,7 @@ permalink: /
         <span class="next-event-callout center">Latest Event</span>
         <span class="next-event-date center">{{ event.eventdate | date: '%B %d, %Y' }}</span>
         <span class="next-event-title center">{{ event.title }}</span>
-        <div class="centering-div"><a href="link" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Learn More</a> <a href="https://www.meetup.com/Transit-Techies-NYC/?action=join" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Join Meetup Group</a></div>
+        <div class="centering-div"><a href="{{ event.url }}" class="pure-button button-white button-white-primary button-xlarge">Learn More</a> <a href="https://www.meetup.com/Transit-Techies-NYC/?action=join" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Join Meetup Group</a></div>
         {% endfor %}
       </div>
     </div>
