@@ -7,40 +7,16 @@ permalink: /
   <div class="pure-g">
     <div class="pure-u-md-1-5"></div>
     <div class="pure-u-1 pure-u-md-3-5">
-      <amp-list class="amp-list-placeholder" layout="fixed-height" height="300px" noloading reset-on-refresh single-item items="." src="https://us-central1-transittechies.cloudfunctions.net/getEvents?status=upcoming">
-        <div placeholder>
-          <div class="next-event-hero center">
-            <div class="lds-circle"><div></div></div>
-          </div>
-        </div>
-        <div fallback>
-          <div class="next-event-hero">
-            <span class="next-event-title center">Welcome to Transit Techies NYC!</span>
-            {% include body-trainanimation.html %}
-            <span class="next-event-callout center">Scroll down to learn more</span>
-          </div>
-        </div>
-        {% raw  %}
-        <template type="amp-mustache">
-          {{#items}}
-          <div class="next-event-hero">
-            <span class="next-event-callout center">Next Event</span>
-            <span class="next-event-date center">{{formatted_date}}</span>
-            <span class="next-event-title center">{{name}}</span>
-            <div class="centering-div"><a href="{{link}}" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">RSVP</a></div>
-          </div>
-          {{/items}} {{^items}}
-          <div class="next-event-hero">
-            <span class="next-event-callout center">Next Meetup Coming Soon!</span>
-            <br /><br />
-            <span class="next-event-date center">While you wait, join the meetup group!</span>
-            <br /><br />
-            <div class="centering-div"><a href="https://www.meetup.com/Transit-Techies-NYC/?action=join" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Join Meetup Group</a></div>
-          </div>
-          {{/items}}
-        </template>
-        {% endraw  %}
-      </amp-list>
+      <div class="next-event-hero">
+        {% assign firstsort = site.events | sort: 'eventdate' %}
+        {% assign sorted = firstsort | reverse %}
+        {% for event in sorted limit:1 %}
+        <span class="next-event-callout center">Latest Event</span>
+        <span class="next-event-date center">{{ event.eventdate | date: '%B %d, %Y' }}</span>
+        <span class="next-event-title center">{{ event.title }}</span>
+        <div class="centering-div"><a href="link" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Learn More</a> <a href="https://www.meetup.com/Transit-Techies-NYC/?action=join" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Join Meetup Group</a></div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </article>
