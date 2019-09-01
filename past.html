@@ -16,7 +16,9 @@ permalink: /past
       <ul>
         <h2 class="center text-purple">Previous Talks</h2>
         <p class="center">A library of slides and demos from past presenters.</p>
-        {% for event in site.events %}
+        {% assign firstsort = site.events | sort: 'eventdate' %}
+        {% assign sorted = firstsort | reverse %}
+        {% for event in sorted %}
           <li>
             <a href="{{ event.url }}">{{ event.title }}</a>
           </li>
