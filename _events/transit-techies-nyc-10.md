@@ -1,6 +1,6 @@
 ---
 layout: event
-title: 'Transit Techies NYC #10'
+title: 'Transit Techies NYC #10: Tenth Avenue Elevated'
 eventdate: '2019-09-04T18:30-05:00'
 location: Intersection
 address: '10 Hudson Yards, New York, NY 10001'
