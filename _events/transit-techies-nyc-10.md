@@ -31,6 +31,7 @@ As always, after the speakers we'll open the floor to announcements anyone might
   - [Video](https://www.youtube.com/watch?v=LUbZs_Kv-Pg)
 - Melody Starling
   - SEPTA Key Cards: How they were rolled out, how the program has changed over time, and how their RFID readers can be embedded in plush toys or even sandwiches!
+  - [Slides](/presentations/2019-09-04_Starling_TransitCardz.pdf)
   - [Video](https://www.youtube.com/watch?v=nd4rCXkuAI8)
 - Evan Otero
   - How Pigeon is making commuting in NYC more data driven and social.
