@@ -14,7 +14,9 @@ published: true
 - Time: 6:30 PM to 8:30 PM
 - Where: {% if page.location %}{{ page.location }}{% endif %}, {% if page.address %}{{ page.address }}{% endif %}
 
-Speakers to be announced soon!
+Aleksey Bilogur will present his `gtfs_tripify` library and how you can use it to create a historical record of arrival times from a GTFS-realtime feed.
+
+Myung and Marcio from Snap will show how an AR experience created and can be triggered with an MTA card, using Snap Lens.
 
 As always, after the speakers we'll open the floor to announcements anyone might have!
 
