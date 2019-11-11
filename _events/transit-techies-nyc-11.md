@@ -24,6 +24,7 @@ As always, after the speakers we'll open the floor to announcements anyone might
 
 - Aleksey Bilogur
   - Building historical MTA arrivals datasets using `gtfs-tripify`, as described in ["Parsing subway rides with gtfs-tripify"](https://www.residentmar.io/2018/01/29/gtfs-tripify.html) and ["Building an MTA historical train arrival application"](https://www.residentmar.io/2018/08/29/subway-explorer.html).
+  - [GitHub Repo](https://github.com/ResidentMario/gtfs-tripify)
   - [Video](https://www.youtube.com/watch?v=Mw6syE_fHrQ)
 - Myung Cha and Marcio Lima (Snap)
   - Triggering an Lens AR experience with your MTA Metrocard using Snap Lens.
