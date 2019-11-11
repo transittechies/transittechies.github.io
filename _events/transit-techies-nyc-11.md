@@ -14,12 +14,17 @@ published: true
 - Time: 6:30 PM to 8:30 PM
 - Where: {% if page.location %}{{ page.location }}{% endif %}, {% if page.address %}{{ page.address }}{% endif %}
 
-Aleksey Bilogur will present his `gtfs_tripify` library and how you can use it to create a historical record of arrival times from a GTFS-realtime feed.
+Aleksey Bilogur will present his `gtfs-tripify` library and how you can use it to create a historical record of arrival times from a GTFS-realtime feed.
 
-Myung and Marcio from Snap will show how an AR experience created and can be triggered with an MTA card, using Snap Lens.
+Myung Cha and Marcio Lima from Snap will show how an AR experience created and can be triggered with an MTA card, using Snap Lens.
 
 As always, after the speakers we'll open the floor to announcements anyone might have!
 
 ## Speakers and Links
 
-Links will be posted shortly following the event.
+- Aleksey Bilogur
+  - Building historical MTA arrivals datasets using `gtfs-tripify`, as described in ["Parsing subway rides with gtfs-tripify"](https://www.residentmar.io/2018/01/29/gtfs-tripify.html) and ["Building an MTA historical train arrival application"](https://www.residentmar.io/2018/08/29/subway-explorer.html).
+  - [Video](https://www.youtube.com/watch?v=Mw6syE_fHrQ)
+- Myung Cha and Marcio Lima (Snap)
+  - Triggering an Lens AR experience with your MTA Metrocard using Snap Lens.
+  - [Video](https://www.youtube.com/watch?v=0aBVVSyhIYU)
