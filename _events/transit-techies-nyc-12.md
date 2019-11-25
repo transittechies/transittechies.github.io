@@ -20,7 +20,7 @@ Ivy Pan from Via will dive into data analysis around Via's ridership patterns, i
 
 Joshua Gee and Jay Sathe from the MTA New York City Transit will talk about the work they did to roll out brand new real-time transit templates throughout the system, including the Next Train and Service Alerts boards you might have noticed on your daily commute!
 
-Joe Rodriguez, inspired by the peril of being a biker on Canal Street, has compiled a collection of moving violations in NYC by NYPD precinct and will walk us through [movingviolations.nyc](movingviolations.nyc).
+Joe Rodriguez, inspired by the peril of being a biker on Canal Street, has compiled a collection of moving violations in NYC by NYPD precinct and will walk us through [movingviolations.nyc](http://movingviolations.nyc).
 
 As always, after the speakers we'll open the floor to announcements anyone might have!
 
