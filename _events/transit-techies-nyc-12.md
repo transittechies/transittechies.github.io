@@ -18,7 +18,7 @@ Sunny Ng, creator of goodservice.io, will demo his newest project [The Weekendes
 
 Ivy Pan from Via will dive into data analysis around Via's ridership patterns, including ridership demand throughout the day, geo zones/routes with high demand, and potential areas of growth.
 
-Joshua Gee and Jay Sathe from the MTA will talk about the work they did to roll out brand new real-time transit templates throughout the system, including the Next Train and Service Alerts boards you might have noticed on your daily commute!
+Joshua Gee, Jay Sathe, and Abilash Achenkunju from the MTA will talk about the work they did to roll out brand new real-time transit templates throughout the system, including the Next Train and Service Alerts boards you might have noticed on your daily commute!
 
 Joe Rodriguez, inspired by the peril of commuting daily on Canal Street, has explored ways to measure traffic violence at a micro level, and the role enforcement plays in reducing crashes. He has compiled a collection of moving violations in NYC by NYPD precinct and will walk us through [movingviolations.nyc](http://movingviolations.nyc).
 
