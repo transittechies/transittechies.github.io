@@ -1,3 +1,25 @@
+- name: Sunny Ng
+  link: https://twitter.com/_blahblahblah
+  image: Sunny_Ng.jpg
+
+- name: Ivy Pan
+  link: https://www.linkedin.com/in/ivypan16/
+  image: Ivy_Pan.jpg
+
+- name: Joshua Gee
+  link: https://twitter.com/jgee
+  image: Joshua_Gee.jpg
+
+- name: Jay Sathe
+  link: https://www.linkedin.com/in/jay-sathe-b0b130133/
+  image: Jay_Sathe.jpg
+
+- name: Abhilash Achenkunju
+
+- name: Joe Rodriguez
+  link: https://twitter.com/urbaneoptics
+  image: Joe_Rodriguez.jpg
+
 - name: Marcio Lima
 
 - name: Myung Cha
@@ -50,10 +72,6 @@
 - name: Adam Pearce
   link: https://twitter.com/adamrpearce
   image: Adam_Pearce.png
-
-- name: Sunny Ng
-  link: https://twitter.com/_blahblahblah
-  image: Sunny_Ng.jpg
 
 - name: Samara Trilling
   link: https://twitter.com/samaratrilling
