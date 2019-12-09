@@ -30,6 +30,7 @@ As always, after the speakers we'll open the floor to announcements anyone might
   - [the weekendest website](https://www.theweekendest.com/)
   - [Blog Post](https://medium.com/good-service/introducing-the-weekendest-dynamic-map-for-new-york-city-subway-35b4a0017920)
   - [GitHub Repo](https://github.com/blahblahblah-/theweekendest)
+  - [Slides](https://speakerdeck.com/blahblahblah/a-dynamic-map-for-new-york-city-subway-finally-the-weekendest)
   - [Video](https://www.youtube.com/watch?v=pL3_3ZTe2sA)
 - Ivy Pan
   - [Slides](/presentations/2019-12-03_Pan_ViaRidershipPatterns.pdf)
