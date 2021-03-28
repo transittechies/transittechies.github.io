@@ -25,7 +25,7 @@ Lauren Tarte and Anne Halvorsen will round up the evening with a discussion of t
 
 ## Written Recap
 
-Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-nyc-6-six-car-train-1a91b22e3815).
+[Click here for a written recap](https://mattj.io/posts/2019-02-08-recap-transit-techies-6-six-car-train/) by [Matt Joseph](https://twitter.com/mattjoseph0).
 
 ## Speakers and Links
 
