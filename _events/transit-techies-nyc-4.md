@@ -24,7 +24,7 @@ Kurt Raschke from MTA New York City Transit will discuss how they implemented Tu
 
 ## Written Recap
 
-Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-nyc-4-four-the-love-of-transit-317b6fcb8a31).
+[Click here for a written recap](https://mattj.io/posts/2018-10-18-recap-transit-techies-4-four-the-love-of-transit/) by [Matt Joseph](https://twitter.com/mattjoseph0).
 
 ## Speakers and Links
 

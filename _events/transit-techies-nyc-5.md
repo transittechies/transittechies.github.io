@@ -22,7 +22,7 @@ Scott Morris will present on the features of the MyMTA mobile app, which was rec
 
 ## Written Recap
 
-Recap by [Matt Joseph](https://twitter.com/mattjoseph0) on [Medium](https://medium.com/@mattjoseph/recap-transit-techies-5-gtf5-950673bdce51).
+[Click here for a written recap](https://mattj.io/posts/2018-12-04-recap-transit-techies-5-gtf5/) by [Matt Joseph](https://twitter.com/mattjoseph0).
 
 ## Speakers and Links
 
