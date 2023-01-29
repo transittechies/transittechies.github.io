@@ -8,14 +8,10 @@ permalink: /
     <div class="pure-u-md-1-5"></div>
     <div class="pure-u-1 pure-u-md-3-5">
       <div class="next-event-hero">
-        {% assign firstsort = site.events | sort: 'eventdate' %}
-        {% assign sorted = firstsort | reverse %}
-        {% for event in sorted limit:1 %}
-        <span class="next-event-callout center">Latest Event</span>
-        <span class="next-event-date center">{{ event.eventdate | date: '%B %d, %Y' }}</span>
-        <span class="next-event-title center">{{ event.title }}</span>
-        <div class="centering-div"><a href="{{ event.url }}" class="pure-button button-white button-white-primary button-xlarge">Learn More</a> <a href="https://www.meetup.com/Transit-Techies-NYC/?action=join" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Join Meetup Group</a></div>
-        {% endfor %}
+        <span class="next-event-callout center">This site is in archive mode. For up-to-date meetup information:</span>
+        <span class="next-event-title center">Visit the Transit Techies NYC Meetup Group</span>
+        <div class="centering-div">
+          <a href="https://www.meetup.com/Transit-Techies-NYC/?action=join" target="_blank" rel="noopener" class="pure-button button-white button-white-primary button-xlarge">Go to Meetup Group</a></div>
       </div>
     </div>
   </div>
@@ -25,15 +21,15 @@ permalink: /
   <div class="pure-g">
     <div class="pure-u-md-1-8"></div>
     <div class="pure-u-1 pure-u-md-3-4">
-      <amp-img src="../img/header4.jpg" width="2000" height="1111" layout="responsive" alt="Meetup photo" class="header-image"></amp-img>
+      <img src="../img/header4.jpg" width="2000" height="1111" alt="Meetup photo" class="header-image responsive"></img>
     </div>
   </div>
   <div class="pure-g">
     <div class="pure-u-md-1-4"></div>
     <div class="pure-u-1 pure-u-md-1-2">
       <h2 class="center">Technologists who love transit.<br />Transit enthusiasts who hack!</h2>
-      <p>Speakers present transit-related projects. Presenters may be household hackers, data scientists, researchers, product developers, or you! All presentations will be technical and awesome.</p>
-      <p>Our group is inspired by the legendary <a class="link" href="https://www.meetup.com/Transportation-Techies/" title="https://www.meetup.com/Transportation-Techies/" target="_blank" rel="noopener">DC Transportation Techies</a> run by <a class="link" href="https://twitter.com/mvs202" title="https://twitter.com/mvs202" target="_blank" rel="noopener">Michael Schade</a>.
+      <p>At Transit Techies NYC, speakers present transit-related projects. Presenters may be household hackers, data scientists, researchers, product developers, or you! All presentations will be technical and awesome.</p>
+      <p>This group is inspired by the legendary <a class="link" href="https://www.meetup.com/Transportation-Techies/" title="https://www.meetup.com/Transportation-Techies/" target="_blank" rel="noopener">DC Transportation Techies</a> run by <a class="link" href="https://twitter.com/mvs202" title="https://twitter.com/mvs202" target="_blank" rel="noopener">Michael Schade</a>.
       </p>
       <div class="centering-div">
         <a href="https://www.meetup.com/Transit-Techies-NYC" target="_blank" rel="noopener" class="pure-button button-white button-white-secondary button-large">Meetup Page</a>
@@ -42,48 +38,43 @@ permalink: /
   </div>
 </article>
 
-{% include body-submit.html %}
-
-
 <article class="nopadding">
   <div class="pure-g">
     <div class="pure-u-1 pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc1.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc1.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
     <div class="pure-u-1 pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc2.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc2.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
     <div class="pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc3.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc3.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
     <div class="pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc4.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc4.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
   </div>
   <div class="pure-g">
     <div class="pure-u-1 pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc5.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc5.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
     <div class="pure-u-1 pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc8.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc8.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
     <div class="pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc6.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc6.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
     <div class="pure-u-md-1-4">
-      <amp-img src="../img/gallery/ttnyc7.jpg" width="2000" height="1499" layout="responsive" alt="Meetup photo"></amp-img>
+      <img src="../img/gallery/ttnyc7.jpg" width="2000" height="1499" class="responsive" alt="Meetup photo"></img>
     </div>
   </div>
 </article>
-
-{% include body-partners.html %}
     
 <article class="past-speakers section section-white">
   <div class="pure-g">
       <div class="pure-u-md-1-4"></div>
       <div class="pure-u-1 pure-u-md-1-2">
       <h2 class="center text-purple">Past Speakers</h2>
-      <p class="center">Below is a list of people who have presented at past events. We regularly have 3-4 speakers per session.</p>
+      <p class="center">Below is a list of people who have presented at past events.</p>
     </div>
   </div>
   <div class="pure-g">
@@ -97,10 +88,10 @@ permalink: /
             <a href="{{ speaker.link }}" target="_blank" rel="noopener" class="text-decoration-none">
             {% endif %}
               {% if speaker.image %}
-              <amp-img src="../img/people/{{ speaker.image }}" width="150" height="150" layout="responsive" alt="speaker photo"></amp-img>
+              <img src="../img/people/{{ speaker.image }}" width="150" height="150" class="responsive" alt="speaker photo"></img>
               {% else %}
               <div class="generic-headshot-container">
-                <amp-img src="../img/person.svg" width="100" height="100" layout="responsive" alt="generic person icon" class="generic-headshot"></amp-img>
+                <img src="../img/person.svg" width="150" height="150" alt="generic person icon" class="generic-headshot responsive"></img>
               </div>
               {% endif %}
               <span class="speaker-name">{{ speaker.name }}</span>
@@ -110,47 +101,9 @@ permalink: /
           {% endif %}
         </div>
         {% endfor %}
-        <div class="card you-speaker">
-          <div class="">
-            <a class="text-decoration-none" href="https://goo.gl/forms/yHRxsngEwGvJHQux2" title="https://goo.gl/forms/yHRxsngEwGvJHQux2" target="_blank" rel="noopener">
-                <div class="you-speaker-body">
-                  <p>This could be you!
-                  </br> </br> <b>Submit your idea for a talk!</b></p>
-                  <span class="speaker-name"><b>SUBMIT</b></span>
-                </div>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 </article>
-<article class="organizers section section-white nopadding">
-  <div class="pure-g">
-      <div class="pure-u-md-1-4"></div>
-      <div class="pure-u-1 pure-u-md-1-2">
-      <h3 class="center text-purple">Organizers</h3>
-      <p class="center">Transit Techies NYC was started in the summer of 2018 by Tyler Green and Kohzy.</p>
-    </div>
-  </div>
-  <div class="pure-g">
-      <div class="pure-u-md-1-8"></div>
-      <div class="pure-u-1 pure-u-md-3-4">
-      <div class="past-speakers-container">
-        {% for organizer in site.data.organizers %}
-        <div class="organizer-profile">
-          <div class="card">
-            <div class="has-link organizer">
-              <a href="{{ organizer.link }}" target="_blank" rel="noopener" class="text-decoration-none">
-                <amp-img src="../img/people/{{ organizer.image }}" width="150" height="150" layout="responsive" alt="organizer photo"></amp-img>
-                <span class="speaker-name">{{ organizer.name }}</span>
-              {% if organizer.link %}
-              </a>
-            </div>
-            {% endif %}
-          </div>
-          <p class="organizer-blurb">{{ organizer.blurb }}</p>
-        </div>
-        {% endfor %}
-      </div></div>
-</article>
+
+{% include body-founders.html %}

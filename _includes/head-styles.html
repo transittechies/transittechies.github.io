@@ -1,9 +1,4 @@
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-
-<style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-
-<style amp-custom="">
+<style>
 /*!
 Pure v1.0.0
 Copyright 2013 Yahoo!
@@ -138,136 +133,6 @@ svg {
   padding-left: 0;
 }
 
-/* Styles for the navbar and sidebar.
-   These are somewhat specific to AMP, such
-   as the accordion and dropdown
- */
-.header-navbar {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 60px;
-  line-height: 60px;
-  z-index: 999;
-  background-color: var(--color-purple);
-  color: #ffffff;
-  box-shadow: 0 0 5px 2px rgba(0,0,0,.1);
-}
-
-.header-navbar .nav-title {
-  float: left;
-  margin-left: 40px;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.nav-items a, .nav-title a {
-  display: block;
-}
-
-.header-navbar .nav-items {
-  float: right;
-  color: var(--color-lightgray);
-  font-weight: bold;
-}
-
-.nav-items>ul {
-  margin: 0px 50px 0px 0px;
-  display: flex;
-}
-
-.nav-items>ul>li {
-  flex: 0 1 auto;
-  margin: 0px 15px 0px 15px;
-}
-
-.navbar-dropdown {
-  min-width: 220px;
-}
-
-.navbar-dropdown>section>header {
-  background-color: var(--color-purple);
-  border: 0;
-  margin: 0 1rem;
-}
-
-.navbar-dropdown>section>ul {
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-}
-
-.navbar-dropdown li {
-  color: var(--color-purple);
-  text-transform: uppercase;
-  margin: 0 1rem;
-  line-height: 2.4rem;
-}
-
-.navbar-dropdown>section>header:after {
-  display: inline-block;
-  content: "+";
-  padding: 0 0 0 1.5rem;
-  color: var(--color-lightgray);
-}
-
-.navbar-dropdown>[expanded]>header:after {
-  content: "–";
-}
-
-.sidebar-trigger {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.sidebar-close-button {
-  margin-top: 10px;
-}
-
-.text-decoration-none {
-  text-decoration: none;
-  color: inherit;
-}
-
-.custom-sidebar {
-  background-color: #ffffff;
-  color: #000000;
-  min-width: 300px;
-  width: 300px;
-  padding-left: 10px;
-  padding-top: 40px;
-}
-
-.custom-sidebar li {
-  margin-bottom: 1.5rem;
-}
-
-.sidebar-dropdown>section>header {
-  background-color: transparent;
-  margin-bottom: 20px;
-}
-
-.sidebar-dropdown>section>ul {
-  padding-left: 20px;
-}
-
-.sidebar-dropdown>section>header:after {
-  display: inline-block;
-  content: "+";
-  padding: 0 0 0 1.5rem;
-  color: #000000;
-}
-
-.sidebar-dropdown>[expanded]>header:after {
-  content: "–";
-}
-
 /* using the :not() selector to avoid conflicting with PureCSS buttons */
 a:visited:not(.pure-button) {
   color: inherit;
@@ -281,17 +146,6 @@ a:not(.pure-button):not(.text-decoration-none) {
   color: inherit;
   text-decoration: none;
 }
-
-/* This code makes the link underlines animate! */
-/* 
-a:hover:not(.pure-button):not(.text-decoration-none) {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23310967' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-  background-position: 0 100%;
-  background-size: auto 6px;
-  background-repeat: repeat-x;
-  text-decoration: none;
-}
-*/
 
 /* Quick fix for when buttons wrap on a line */
 a.pure-button {
@@ -448,7 +302,7 @@ article:first-of-type {
   color: #ffffff;
 }
 
-.organizer:hover {
+.founder:hover {
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1);
   background-color: var(--color-purple);
   color: #ffffff;
@@ -476,7 +330,7 @@ article:first-of-type {
 }
 
 .past-speakers-container .card .generic-headshot{
-	width: 85px;
+	width: 10.3125rem;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -497,12 +351,12 @@ article:first-of-type {
   margin: 1rem auto;
 }
 
-.organizer-profile {
+.founder-profile {
 	width: 330px;
 	margin: 0 2.5rem 2rem;
 }
 
-.organizer-profile .card {
+.founder-profile .card {
 	margin-bottom: 2rem;
 }
 
@@ -822,6 +676,154 @@ article:first-of-type {
 .consentPopup {
   margin-top: 30px;
   padding: 10px;
+}
+
+img.responsive, video.responsive {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* The top navbar itself. */
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  font-size: 1.5rem;
+  z-index: 999;
+  background-color: var(--color-purple);
+  color: var(--color-lightgray);
+  box-shadow: 0 0 0.3125rem 0.125rem rgba(0,0,0,.1);
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.navbar-title {
+  margin: 0 auto 0 auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 0.75rem;
+}
+
+.navbar-title a {
+  color: #ffffff;
+}
+
+/* Any direct children of the navbar should be horizontal and aligned to top. */
+.navbar > * {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar > .navbar-horiz {
+  display: none;
+}
+
+/* Specific to the sidebar menu details. */
+.navbar-sidebar {
+  width: 6rem;
+  position: absolute;
+  left: 0;
+  text-align: left;
+}
+
+.navbar-details {
+  cursor: pointer;
+}
+
+details.navbar-details > summary {
+  display: list-item;
+  padding-left: 0.5rem;
+}
+
+/* The content of the details dropdown. */
+.navbar-details-content {
+  background-color: #fafafa;
+  color: var(--color-purple);
+  line-height: 1.8rem;
+  font-size: 1.2rem;
+  overflow: visible;
+}
+
+.navbar-details-content a {
+  color: var(--color-purple);
+}
+
+/*
+ * Position absolute so that it doesn't change
+ * the size of the header.
+ */
+.navbar-top-details > .navbar-details-content {
+  position: absolute;
+  width: 13rem;
+}
+
+/* When used as a sidebar, we have the height as the entire screen and a wider bar. */
+.navbar-sidebar > .navbar-details-content {
+  height: 100vh;
+  width: 15rem;
+}
+
+/* Lists in the dropdowns have no style. */
+.navbar-details-content > ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.navbar-details-content > ul > li {
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+/* For the horizontal list. */
+.navbar-horiz, .navbar-horiz-list {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  margin: 0;
+  float: right;
+}
+
+/* For the horizontal list. */
+.navbar-horiz-list > li {
+  display: inline-block;
+  margin: 0 0.25rem 0 0.25rem;
+  height: 100%;
+}
+
+/* For larger screens we:
+ * * turn off the sidebar
+ * * turn on horizontal nav
+*/
+@media (min-width: 768px) {
+  .navbar {
+  	text-align: left;
+  }
+
+  .navbar-sidebar {
+    display: none;
+  }
+  
+  .navbar > .navbar-horiz {
+    display: inline-block;
+  }
+  .navbar-title {
+    margin: 0 0 0 2rem;
+  }
+
+  .navbar-top-details > .navbar-details-content {
+    right: 0;
+  }
+}
+
+.text-decoration-none {
+  text-decoration: none;
+  color: inherit;
 }
 
 </style>
