@@ -1,0 +1,34 @@
+<article class="founders section section-white nopadding">
+  <div class="pure-g">
+      <div class="pure-u-md-1-4"></div>
+      <div class="pure-u-1 pure-u-md-1-2">
+      <h3 class="center text-purple">Founders</h3>
+      <p class="center">Transit Techies NYC was started in the summer of 2018 by Tyler Green and Kohzy Koh.</p>
+    </div>
+  </div>
+
+  <div class="pure-g">
+    <div class="pure-u-md-1-8"></div>
+    <div class="pure-u-1 pure-u-md-3-4">
+      <div class="past-speakers-container">
+
+        {% for founder in site.data.founders %}
+        <div class="founder-profile">
+          <div class="card">
+            <div class="has-link founder">
+
+              <a href="{{ founder.link }}" target="_blank" rel="noopener" class="text-decoration-none">
+                <img src="../img/people/{{ founder.image }}" width="150" height="150" class="responsive" alt="founder photo"></img>
+                <span class="speaker-name">{{ founder.name }}</span>
+              </a>
+
+            </div>
+          </div>
+
+          <p class="founder-blurb">{{ founder.blurb }}</p>
+        </div>
+      {% endfor %}
+
+    </div>
+</div>
+</article>

@@ -1,49 +1,45 @@
-  <!-- Start navbar -->
-  <nav class="header-navbar">
-    <div class="nav-title">
-      <a href="/" class="text-decoration-none">Transit Techies NYC</a>
-    </div>
-    <div role="button" aria-label="open sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger md-hide lg-hide">☰</div>
-    <div class="nav-items sm-hide xs-hide">
-      <ul class="list-reset horiz-list">
+<nav class="navbar">
+  <details class="navbar-sidebar navbar-details navbar-top-details">
+    <summary id="navbar-main-menu-title" class="navbar-details-title">☰</summary>
+    <div class="navbar-details-content">
+      <ul aria-labelledby="navbar-main-menu-title">
         <li><a href="/#about" class="text-decoration-none">ABOUT</a></li>
         <li><a href="https://www.meetup.com/Transit-Techies-NYC" target="_blank" rel="noopener" class="text-decoration-none">MEETUP</a></li>
         <li><a href="/past" class="text-decoration-none">PAST EVENTS</a></li>
         <li>
-          <amp-accordion layout="container" disable-session-states="" class="navbar-dropdown">
-            <section>
-              <header>RESOURCES</header>
-              <ul class="list-reset">
+          <details class="navbar-details">
+            <summary id="navbar-subsection-title" class="navbar-details-title">Resources</summary>
+            <div class="navbar-details-content">
+              <ul aria-labelledby="navbar-subsection-title">
                 <li><a href="https://www.youtube.com/channel/UCKSC5WJLFaWQKB0d5BnI6LA" class="text-decoration-none" target="_blank" rel="noopener">Videos</a></li>
                 <li><a href="https://www.meetup.com/Transit-Techies-NYC/discussions/" class="text-decoration-none" target="_blank" rel="noopener">Contact/Discussion</a></li>
                 <li><a href="https://www.meetup.com/Transportation-Techies/" class="text-decoration-none" target="_blank" rel="noopener">D.C. Meetup</a></li>
               </ul>
-            </section>
-          </amp-accordion>
+            </div>
+          </details>
         </li>
+        <li>{% include body-shareicons.html %}</li>
       </ul>
     </div>
-  </nav>
-
-  <!-- Start sidebar -->
-  <amp-sidebar id="header-sidebar" class="custom-sidebar" layout="nodisplay" side="left">
-    <div role="button" aria-label="close sidebar" on="tap:header-sidebar.toggle" tabindex="0" class="sidebar-trigger sidebar-close-button">✕</div>
-    <ul class="list-reset">
-      <li><a href="/#about" class="text-decoration-none">About</a></li>
-      <li><a href="/past" class="text-decoration-none">Past Events</a></li>
-      <li><a href="https://www.meetup.com/Transit-Techies-NYC/discussions/" class="text-decoration-none">Meetup</a></li>
+  </details>
+  <div class="navbar-title"><a href="/" class="text-decoration-none">Transit Techies NYC</a></div>
+  <div class="navbar-horiz">
+    <ul class="navbar-horiz-list">
+      <li><a href="/#about" class="text-decoration-none">ABOUT</a></li>
+      <li><a href="https://www.meetup.com/Transit-Techies-NYC" target="_blank" rel="noopener" class="text-decoration-none">MEETUP</a></li>
+      <li><a href="/past" class="text-decoration-none">PAST EVENTS</a></li>
       <li>
-        <amp-accordion layout="container" disable-session-states="" class="sidebar-dropdown">
-          <section>
-            <header>Resources</header>
-            <ul class="list-reset">
+        <details class="navbar-details navbar-top-details">
+          <summary id="navbar-resources-title" class="navbar-details-title">Resources</summary>
+          <div class="navbar-details-content">
+            <ul aria-labelledby="navbar-resources-title">
               <li><a href="https://www.youtube.com/channel/UCKSC5WJLFaWQKB0d5BnI6LA" class="text-decoration-none" target="_blank" rel="noopener">Videos</a></li>
               <li><a href="https://www.meetup.com/Transit-Techies-NYC/discussions/" class="text-decoration-none" target="_blank" rel="noopener">Contact/Discussion</a></li>
-              <li><a href="https://www.meetup.com/Transportation-Techies/" class="text-decoration-none" target="_blank" rel="noopener">Transportation Techies D.C.</a></li>
+              <li><a href="https://www.meetup.com/Transportation-Techies/" class="text-decoration-none" target="_blank" rel="noopener">D.C. Meetup</a></li>
             </ul>
-          </section>
-        </amp-accordion>
+          </div>
+        </details>
       </li>
-      {% include body-shareicons.html %}
     </ul>
-  </amp-sidebar>
+  </div>
+</nav>
