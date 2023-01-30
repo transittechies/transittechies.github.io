@@ -1,14 +1,15 @@
 # Transit Techies Homepage
 
-Work-in-progress homepage for the Transit Techies meetup group and all things related to it!
+Archive homepage for the Transit Techies meetup group and all things related to it.
 
-Based on the simple blog AMP template.
+This site uses:
 
-## Verifying AMP
+* Jekyll
+* PureCSS
+* normalize.css
+* Workbox
 
-This site is using AMP, so you need to make sure the CSS and elements you are using are compliant. To verify, just add `#development=1` to the end of the url, like this:
-
-    http://localhost:4000/#development=1
+It is hosted via GitHub Pages and Cloudflare.
 
 ## Contributing
 
